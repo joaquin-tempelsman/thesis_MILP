@@ -110,7 +110,7 @@ def get_stock_inicial_from_parte_diario(
         ] = row.stock
 
     if PARAMS['SCRAMBLE_NUMS']:
-        collect_df['stock'] * PARAMS['SCRAMBLE_MODIF']
+        collect_df['stock'] = collect_df['stock'] * PARAMS['SCRAMBLE_MODIF']
     for index, row in collect_df.iterrows():
         list_row = list(row) + ["\n"]
         line = "\t".join(str(x) for x in list_row)
@@ -923,6 +923,55 @@ def apply_contant_prices(df_precios):
     for index, row in df_precios.iterrows():
         for col in cols.keys():
             df_precios.loc[index, col] = cols[col]
+
+    return df_precios
+
+
+def apply_discount_factor_to_prices(df_precios, discount_factor_percent, fecha_inicio):
+    """
+    Apply a discount factor to future prices period by period.
+
+    Args:
+        df_precios: DataFrame with price data
+        discount_factor_percent: Discount factor as percentage (e.g., 0.5 for 0.5%, 1 for 1%)
+        fecha_inicio: Start date in format '%d/%m/%Y'
+
+    Returns:
+        DataFrame with discounted prices
+    """
+    df_precios = df_precios.copy()
+
+    # Convert discount percentage to decimal (e.g., 0.5% -> 0.005, 1% -> 0.01)
+    discount_rate = discount_factor_percent / 100.0
+
+    # Price columns to apply discount to
+    price_cols = [
+        "VAQUILLONAS270",
+        "VAQUILLONAS391",
+        "NOVILLITOS300",
+        "NOVILLITOS391",
+    ]
+
+    # Sort by date to ensure proper ordering
+    df_precios = df_precios.sort_values('PERIODO_INICIO').reset_index(drop=True)
+
+    # Get the start date
+    start_date = pd.to_datetime(fecha_inicio, format="%d/%m/%Y")
+
+    # Apply discount factor period by period for future periods
+    for index, row in df_precios.iterrows():
+        if row['PERIODO_INICIO'] > start_date:
+            # Calculate number of periods from start
+            periods_from_start = (row['PERIODO_INICIO'].year - start_date.year) * 12 + \
+                                (row['PERIODO_INICIO'].month - start_date.month)
+
+            # Apply compound discount: price * (1 - discount_rate)^periods
+            discount_multiplier = (1 - discount_rate) ** periods_from_start
+
+            for col in price_cols:
+                df_precios.loc[index, col] = df_precios.loc[index, col] * discount_multiplier
+
+    log.info(f"Applied {discount_factor_percent}% discount factor to future prices")
 
     return df_precios
 

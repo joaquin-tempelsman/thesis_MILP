@@ -15,6 +15,7 @@ from preprocessing.data_prep import (
     quote_stock,
     costs_to_dat_realistic,
     apply_contant_prices,
+    apply_discount_factor_to_prices,
 )
 
 log = logging.getLogger("logger")
@@ -30,6 +31,7 @@ def build_LP_inputs(
     COST_TEST=False,
     INITIAL_STOCK_TEST=False,
     fix_prices=False,
+    disc_fact=None,
 ):
     log.info(f"cleaning .dat files from {PATH_DAT_FILES}")
     clear_model_inputs(PATH_DAT_FILES)
@@ -71,6 +73,15 @@ def build_LP_inputs(
     df_precios['PERIODO_INICIO'] = pd.to_datetime(df_precios['PERIODO_INICIO'])
     if fix_prices:
         df_precios = apply_contant_prices(df_precios)
+
+    # Apply discount factor if specified
+    if disc_fact is not None:
+        log.info(f"Applying discount factor of {disc_fact}% to prices")
+        df_precios = apply_discount_factor_to_prices(
+            df_precios,
+            disc_fact,
+            PARAMS["fecha_inicio"]
+        )
 
     log.info("writing prices.dat file")
     precios_scrapped_to_dat(
