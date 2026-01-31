@@ -57,10 +57,10 @@ exp_grid = {
     '2019_24periods_fix_sales_costs_100' : {'fecha_inicio': '18/01/2019', 'periodos_modelo': 24, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1},
 
     # discount factor experiments
-    '2019_120periods_fcst_disc_fact_0.5perc': {'fecha_inicio': '18/01/2019', 'periodos_modelo': 120, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1, 'disc_fact': 0.5},
-    '2019_120periods_fcst_disc_fact_1perc': {'fecha_inicio': '18/01/2019', 'periodos_modelo': 120, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1, 'disc_fact': 1.0},
     '2019_24periods_disc_fact_0.5perc': {'fecha_inicio': '18/01/2019', 'periodos_modelo': 24, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1, 'disc_fact': 0.5},
     '2019_24periods_disc_fact_1perc': {'fecha_inicio': '18/01/2019', 'periodos_modelo': 24, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1, 'disc_fact': 1.0},
+    '2019_120periods_fcst_disc_fact_0.5perc': {'fecha_inicio': '18/01/2019', 'periodos_modelo': 120, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1, 'disc_fact': 0.5},
+    '2019_120periods_fcst_disc_fact_1perc': {'fecha_inicio': '18/01/2019', 'periodos_modelo': 120, 'fecha_fin_ejercicio': '08/01/2021', 'fix_prices': False, "mantain_c3_stock": 1, 'disc_fact': 1.0},
 }
 
 for experiment, items in exp_grid.items():
