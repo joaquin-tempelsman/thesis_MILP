@@ -1,0 +1,1451 @@
+SCIP version 7.0.2 [precision: 8 byte] [memory: block] [mode: optimized] [LP solver: SoPlex 5.0.2] [GitHash: dafb536cfd]
+Copyright (C) 2002-2020 Konrad-Zuse-Zentrum fuer Informationstechnik Berlin (ZIB)
+
+External codes: 
+  Readline 7.0         GNU library for command line editing (gnu.org/s/readline)
+  SoPlex 5.0.2         Linear Programming Solver developed at Zuse Institute Berlin (soplex.zib.de) [GitHash: 3623dbc0]
+  CppAD 20180000.0     Algorithmic Differentiation of C++ algorithms developed by B. Bell (www.coin-or.org/CppAD)
+  ZLIB 1.2.11          General purpose compression library by J. Gailly and M. Adler (zlib.net)
+  GMP 6.1.2            GNU Multiple Precision Arithmetic Library developed by T. Granlund (gmplib.org)
+  ZIMPL 3.4.0          Zuse Institute Mathematical Programming Language developed by T. Koch (zimpl.zib.de)
+  PaPILO 1.0.1         parallel presolve for integer and linear optimization (https://github.com/lgottwald/PaPILO) [GitHash: 0638fc4]
+  bliss 0.73p          Computing Graph Automorphism Groups by T. Junttila and P. Kaski (http://www.tcs.hut.fi/Software/bliss/)
+  Ipopt 3.13.2         Interior Point Optimizer developed by A. Waechter et.al. (www.coin-or.org/Ipopt)
+
+user parameter file <scip.set> not found - using default parameters
+
+read problem <model_strategy_2eng.zpl>
+============
+
+
+base directory for ZIMPL parsing: </workspace>
+
+original problem has 104057 variables (360 bin, 0 int, 0 impl, 103697 cont) and 157847 constraints
+
+solve problem
+=============
+
+presolving:
+(round 1, fast)       63149 del vars, 70550 del conss, 0 add conss, 84771 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 2, fast)       103380 del vars, 156255 del conss, 0 add conss, 125065 chg bounds, 2 chg sides, 13 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 3, fast)       103406 del vars, 157019 del conss, 0 add conss, 125095 chg bounds, 2 chg sides, 13 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 4, fast)       103407 del vars, 157019 del conss, 0 add conss, 125141 chg bounds, 17 chg sides, 19 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 5, fast)       103407 del vars, 157019 del conss, 0 add conss, 125203 chg bounds, 18 chg sides, 21 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 6, fast)       103407 del vars, 157019 del conss, 0 add conss, 125275 chg bounds, 18 chg sides, 24 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 7, fast)       103407 del vars, 157019 del conss, 0 add conss, 125358 chg bounds, 18 chg sides, 29 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 8, fast)       103407 del vars, 157019 del conss, 0 add conss, 125432 chg bounds, 18 chg sides, 36 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 9, fast)       103407 del vars, 157019 del conss, 0 add conss, 125503 chg bounds, 18 chg sides, 39 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 10, fast)       103407 del vars, 157019 del conss, 0 add conss, 125572 chg bounds, 18 chg sides, 42 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 11, fast)       103407 del vars, 157019 del conss, 0 add conss, 125643 chg bounds, 18 chg sides, 48 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 12, fast)       103407 del vars, 157019 del conss, 0 add conss, 125698 chg bounds, 18 chg sides, 52 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 13, fast)       103407 del vars, 157019 del conss, 0 add conss, 125747 chg bounds, 18 chg sides, 58 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 14, fast)       103407 del vars, 157019 del conss, 0 add conss, 125792 chg bounds, 18 chg sides, 63 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 15, fast)       103407 del vars, 157019 del conss, 0 add conss, 125823 chg bounds, 18 chg sides, 65 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 16, fast)       103407 del vars, 157019 del conss, 0 add conss, 125846 chg bounds, 18 chg sides, 73 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 17, fast)       103407 del vars, 157019 del conss, 0 add conss, 125852 chg bounds, 18 chg sides, 79 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 18, exhaustive) 103407 del vars, 157382 del conss, 0 add conss, 125856 chg bounds, 228 chg sides, 82 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 19, fast)       103436 del vars, 157382 del conss, 0 add conss, 125856 chg bounds, 228 chg sides, 82 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 20, fast)       103448 del vars, 157394 del conss, 0 add conss, 125856 chg bounds, 257 chg sides, 82 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 21, fast)       103456 del vars, 157402 del conss, 0 add conss, 125856 chg bounds, 257 chg sides, 82 chg coeffs, 0 upgd conss, 0 impls, 0 clqs
+(round 22, exhaustive) 103456 del vars, 157402 del conss, 0 add conss, 125856 chg bounds, 257 chg sides, 82 chg coeffs, 1 upgd conss, 0 impls, 0 clqs
+(round 23, exhaustive) 103456 del vars, 157402 del conss, 0 add conss, 125856 chg bounds, 257 chg sides, 82 chg coeffs, 2 upgd conss, 1 impls, 0 clqs
+   (1774.3s) probing cycle finished: starting next cycle
+(round 24, exhaustive) 103473 del vars, 157402 del conss, 0 add conss, 126856 chg bounds, 257 chg sides, 82 chg coeffs, 2 upgd conss, 999 impls, 10 clqs
+(round 25, fast)       103473 del vars, 157403 del conss, 0 add conss, 126957 chg bounds, 257 chg sides, 135 chg coeffs, 27 upgd conss, 999 impls, 10 clqs
+(round 26, fast)       103481 del vars, 157411 del conss, 0 add conss, 126957 chg bounds, 257 chg sides, 206 chg coeffs, 27 upgd conss, 999 impls, 10 clqs
+   (1774.3s) probing cycle finished: starting next cycle
+(round 27, exhaustive) 103483 del vars, 157411 del conss, 0 add conss, 126957 chg bounds, 257 chg sides, 206 chg coeffs, 27 upgd conss, 999 impls, 0 clqs
+(round 28, fast)       103483 del vars, 157411 del conss, 0 add conss, 126957 chg bounds, 257 chg sides, 206 chg coeffs, 29 upgd conss, 999 impls, 0 clqs
+(round 29, fast)       103485 del vars, 157413 del conss, 0 add conss, 126957 chg bounds, 257 chg sides, 206 chg coeffs, 29 upgd conss, 999 impls, 0 clqs
+   (1774.3s) probing: 23/84 (27.4%) - 19 fixings, 0 aggregations, 1007 implications, 1000 bound changes
+   (1774.3s) probing aborted: 50/50 successive totally useless probings
+   (1774.3s) symmetry computation started: requiring (bin +, int -, cont +), (fixed: bin -, int +, cont -)
+   (1774.3s) no symmetry present
+presolving (30 rounds: 30 fast, 6 medium, 6 exhaustive):
+ 103485 deleted vars, 157413 deleted constraints, 0 added constraints, 126957 tightened bounds, 0 added holes, 257 changed sides, 206 changed coefficients
+ 999 implications, 0 cliques
+presolved problem has 572 variables (84 bin, 0 int, 0 impl, 488 cont) and 434 constraints
+      2 constraints of type <varbound>
+    432 constraints of type <linear>
+Presolving Time: 1774.01
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+p1774s|     1 |     0 |   418 |     - |   locks|   0 | 572 | 434 | 434 |   0 |  0 |   0 |   0 | 1.167282e+07 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   844 |     - |   377M |   0 | 572 | 434 | 434 |   0 |  0 |   0 |   0 | 2.530557e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   902 |     - |   377M |   0 | 572 | 434 | 445 |  11 |  1 |   0 |   0 | 2.410140e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   929 |     - |   377M |   0 | 572 | 434 | 454 |  20 |  2 |   0 |   0 | 2.326644e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   940 |     - |   377M |   0 | 572 | 434 | 459 |  25 |  3 |   0 |   0 | 2.296791e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   970 |     - |   377M |   0 | 572 | 434 | 470 |  36 |  4 |   0 |   0 | 2.254747e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   974 |     - |   377M |   0 | 572 | 434 | 471 |  37 |  5 |   0 |   0 | 2.252186e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   977 |     - |   377M |   0 | 572 | 434 | 473 |  39 |  6 |   0 |   0 | 2.247858e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   985 |     - |   377M |   0 | 572 | 434 | 476 |  42 |  8 |   0 |   0 | 2.244018e+05 | 2.060716e+03 |  Large | unknown
+ 1774s|     1 |     0 |   989 |     - |   377M |   0 | 572 | 434 | 478 |  44 |  9 |   0 |   0 | 2.240928e+05 | 2.060716e+03 |  Large | unknown
+o1774s|     1 |     0 |  1140 |     - |feaspump|   0 | 572 | 434 | 478 |  44 | 11 |   0 |   0 | 2.240928e+05 | 2.240158e+05 |   0.03%| unknown
+ 1775s|     1 |     0 |  1140 |     - |   380M |   0 | 572 | 434 | 478 |  44 | 11 |   0 |   0 | 2.240928e+05 | 2.240158e+05 |   0.03%| unknown
+ 1775s|     1 |     0 |  1140 |     - |   380M |   0 | 572 | 434 | 447 |  44 | 11 |   0 |   0 | 2.240928e+05 | 2.240158e+05 |   0.03%| unknown
+ 1775s|     1 |     0 |  1140 |     - |   380M |   0 | 572 | 361 | 447 |  44 | 13 |   0 |   0 | 2.240928e+05 | 2.240158e+05 |   0.03%| unknown
+(run 1, node 1) restarting after 31 global fixings of integer variables
+
+(restart) converted 44 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       146 del vars, 40 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 999 impls, 0 clqs
+(round 2, fast)       150 del vars, 40 del conss, 0 add conss, 0 chg bounds, 7 chg sides, 0 chg coeffs, 0 upgd conss, 999 impls, 0 clqs
+(round 3, fast)       150 del vars, 40 del conss, 0 add conss, 0 chg bounds, 11 chg sides, 0 chg coeffs, 0 upgd conss, 999 impls, 0 clqs
+(round 4, exhaustive) 150 del vars, 40 del conss, 0 add conss, 0 chg bounds, 11 chg sides, 0 chg coeffs, 16 upgd conss, 999 impls, 0 clqs
+presolving (5 rounds: 5 fast, 2 medium, 2 exhaustive):
+ 150 deleted vars, 40 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 11 changed sides, 0 changed coefficients
+ 999 implications, 0 cliques
+presolved problem has 422 variables (53 bin, 0 int, 0 impl, 369 cont) and 365 constraints
+     18 constraints of type <varbound>
+    347 constraints of type <linear>
+Presolving Time: 1774.07
+transformed 1/2 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+ 1775s|     1 |     0 |  1513 |     - |   380M |   0 | 422 | 365 | 365 |   0 |  0 |   0 |   0 | 2.240928e+05 | 2.240158e+05 |   0.03%| unknown
+ 1775s|     1 |     0 |  1513 |     - |   379M |   0 | 422 | 365 | 330 |   0 |  0 |   0 |   0 | 2.240928e+05 | 2.240158e+05 |   0.03%| unknown
+ 1775s|     1 |     0 |  1519 |     - |   379M |   0 | 422 | 365 | 327 |   1 |  1 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     0 |  1519 |     - |   379M |   0 | 422 | 365 | 326 |   1 |  1 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     0 |  1519 |     - |   379M |   0 | 422 | 365 | 326 |   1 |  2 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     0 |  1519 |     - |   379M |   0 | 422 | 267 | 326 |   1 |  4 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+(run 2, node 1) restarting after 36 global fixings of integer variables
+
+(restart) converted 1 cuts from the global cut pool into linear constraints
+
+presolving:
+(round 1, fast)       243 del vars, 86 del conss, 0 add conss, 7 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+(round 2, fast)       266 del vars, 98 del conss, 0 add conss, 17 chg bounds, 6 chg sides, 0 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+(round 3, fast)       268 del vars, 101 del conss, 0 add conss, 26 chg bounds, 15 chg sides, 0 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+(round 4, fast)       268 del vars, 101 del conss, 0 add conss, 28 chg bounds, 15 chg sides, 0 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+(round 5, fast)       268 del vars, 101 del conss, 0 add conss, 28 chg bounds, 15 chg sides, 1 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+(round 6, exhaustive) 268 del vars, 102 del conss, 0 add conss, 28 chg bounds, 15 chg sides, 1 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+presolving (7 rounds: 7 fast, 2 medium, 2 exhaustive):
+ 268 deleted vars, 102 deleted constraints, 0 added constraints, 28 tightened bounds, 0 added holes, 15 changed sides, 1 changed coefficients
+ 1006 implications, 0 cliques
+presolved problem has 154 variables (17 bin, 0 int, 0 impl, 137 cont) and 166 constraints
+      9 constraints of type <varbound>
+    157 constraints of type <linear>
+Presolving Time: 1774.13
+transformed 1/4 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+ 1775s|     1 |     0 |  1649 |     - |   371M |   0 | 154 | 166 | 166 |   0 |  0 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     0 |  1649 |     - |   371M |   0 | 154 | 166 | 164 |   0 |  0 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     0 |  1649 |     - |   371M |   0 | 154 | 166 | 163 |   0 |  1 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     0 |  1649 |     - |   371M |   0 | 154 | 161 | 163 |   0 |  3 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+(run 3, node 1) restarting after 2 global fixings of integer variables
+
+presolving:
+(round 1, fast)       8 del vars, 2 del conss, 0 add conss, 0 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 1006 impls, 0 clqs
+presolving (2 rounds: 2 fast, 1 medium, 1 exhaustive):
+ 8 deleted vars, 2 deleted constraints, 0 added constraints, 0 tightened bounds, 0 added holes, 0 changed sides, 0 changed coefficients
+ 1006 implications, 0 cliques
+presolved problem has 146 variables (15 bin, 0 int, 0 impl, 131 cont) and 159 constraints
+      8 constraints of type <varbound>
+    151 constraints of type <linear>
+Presolving Time: 1774.19
+transformed 2/5 original solutions to the transformed problem space
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+ 1775s|     1 |     0 |  1778 |     - |   373M |   0 | 146 | 159 | 159 |   0 |  0 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+ 1775s|     1 |     2 |  1778 |     - |   373M |   0 | 146 | 159 | 159 |   0 |  2 |   0 |   0 | 2.240266e+05 | 2.240158e+05 |   0.00%| unknown
+
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 1774.98
+Solving Nodes      : 3 (total of 6 nodes in 4 runs)
+Primal Bound       : +2.24015799997026e+05 (5 solutions)
+Dual Bound         : +2.24015799997026e+05
+Gap                : 0.00 %
+
+primal solution (original space):
+=================================
+
+objective value:                     224015.799997025
+s#1                                                 1 	(obj:-3660)
+s#13                                                1 	(obj:-3660)
+s#25                                                1 	(obj:-3660)
+s#37                                                1 	(obj:-3660)
+s#39                                                1 	(obj:-3660)
+s#49                                                1 	(obj:-3660)
+s#61                                                1 	(obj:-3660)
+s#73                                                1 	(obj:-3660)
+s#85                                                1 	(obj:-3660)
+s#97                                                1 	(obj:-3660)
+s#109                                               1 	(obj:-3660)
+s#119                                               1 	(obj:-3660)
+k#7                                                 1 	(obj:0)
+k#19                                                1 	(obj:0)
+k#31                                                1 	(obj:0)
+k#43                                                1 	(obj:0)
+k#55                                                1 	(obj:0)
+k#67                                                1 	(obj:0)
+k#79                                                1 	(obj:0)
+k#91                                                1 	(obj:0)
+k#103                                               1 	(obj:0)
+l#7                                                 1 	(obj:0)
+l#19                                                1 	(obj:0)
+l#31                                                1 	(obj:0)
+l#43                                                1 	(obj:0)
+l#55                                                1 	(obj:0)
+l#67                                                1 	(obj:0)
+l#79                                                1 	(obj:0)
+l#91                                                1 	(obj:0)
+l#103                                               1 	(obj:0)
+x#2#9#2                              50.3775450832858 	(obj:-11.9152468573438)
+x#2#20#2                                           61 	(obj:-22.1487707482089)
+x#2#62#3                                          587 	(obj:-4.57613293051359)
+x#3#10#2                             50.3775450832858 	(obj:-12.671588224265)
+x#3#21#2                                           61 	(obj:-22.9180513595166)
+x#3#63#3                                          587 	(obj:-4.53037160120846)
+x#4#11#2                             50.3775450832858 	(obj:-13.4198590663712)
+x#4#22#2                                           61 	(obj:-17.0010527053698)
+x#4#64#3                                          587 	(obj:-4.48506788519637)
+x#5#12#3                             50.3775450832858 	(obj:0)
+x#5#23#2                                           61 	(obj:-16.8310421783161)
+x#5#65#3                                          587 	(obj:-4.44021720634441)
+x#6#13#3                             50.3775450832858 	(obj:-4.39581503428097)
+x#6#24#2                                           61 	(obj:-16.6627317565329)
+x#6#66#3                                          587 	(obj:-4.39581503428097)
+x#7#0#1                                        205.45 	(obj:-43.2895250744754)
+x#7#0#2                                        205.45 	(obj:-43.2895250744754)
+x#7#14#3                             50.3775450832858 	(obj:-4.35185688393816)
+x#7#25#2                                           61 	(obj:-16.4961044389676)
+x#7#67#3                                          587 	(obj:-4.35185688393816)
+x#8#1#1                                        205.45 	(obj:-4.88639713725645)
+x#8#1#2                                        205.45 	(obj:-4.88639713725645)
+x#8#15#3                             50.3775450832858 	(obj:-4.30833831509877)
+x#8#26#2                                           61 	(obj:-16.3311433945779)
+x#8#68#3                                          587 	(obj:-4.30833831509877)
+x#9#2#1                                        205.45 	(obj:-5.58649100986403)
+x#9#2#2                                        205.45 	(obj:-5.58649100986403)
+x#9#16#3                             50.3775450832858 	(obj:-4.26525493194779)
+x#9#27#2                                           61 	(obj:-16.1678319606321)
+x#9#69#3                                          587 	(obj:-4.26525493194779)
+x#10#3#1                                       205.45 	(obj:-6.28089651182269)
+x#10#3#2                                       205.45 	(obj:-6.28089651182269)
+x#10#17#3                            50.3775450832858 	(obj:-4.22260238262831)
+x#10#28#2                                          61 	(obj:-16.0061536410258)
+x#10#70#3                                         587 	(obj:-4.22260238262831)
+x#11#4#1                                       205.45 	(obj:-6.97049290302611)
+x#11#4#2                                       205.45 	(obj:-6.97049290302611)
+x#11#18#3                            50.3775450832858 	(obj:-4.18037635880203)
+x#11#29#2                                          61 	(obj:-15.8460921046155)
+x#11#71#3                                         587 	(obj:-4.18037635880203)
+x#12#5#1                                       205.45 	(obj:-7.65612483675514)
+x#12#5#2                                       205.45 	(obj:-7.65612483675514)
+x#12#19#3                            50.3775450832858 	(obj:-4.13857259521401)
+x#12#30#2                                          61 	(obj:-15.6876311835694)
+x#12#72#3                                         587 	(obj:-4.13857259521401)
+x#13#6#1                                       205.45 	(obj:-8.33860323213895)
+x#13#6#2                                       205.45 	(obj:-8.33860323213895)
+x#13#20#3                            50.3775450832858 	(obj:-4.09718686926187)
+x#13#31#2                                          61 	(obj:-15.5307548717337)
+x#13#73#3                                         587 	(obj:-4.09718686926187)
+x#14#7#2                                      143.815 	(obj:-9.01636862861717)
+x#14#21#3                            50.3775450832858 	(obj:-4.05621500056925)
+x#14#74#3                                         587 	(obj:-4.05621500056925)
+x#15#8#2                                      143.815 	(obj:-9.68729484751101)
+x#15#22#3                            50.3775450832858 	(obj:-4.01565285056355)
+x#15#75#3                                         587 	(obj:-4.01565285056355)
+x#16#9#2                                      143.815 	(obj:-10.3513208154261)
+x#16#23#3                            50.3775450832858 	(obj:-3.97549632205792)
+x#16#76#3                                         587 	(obj:-3.97549632205792)
+x#17#10#2                                     143.815 	(obj:-11.0083892109629)
+x#17#24#3                            50.3775450832858 	(obj:-3.93574135883734)
+x#17#77#3                                         587 	(obj:-3.93574135883734)
+x#18#11#2                                     143.815 	(obj:-11.6584463718598)
+x#18#25#3                            50.3775450832858 	(obj:-3.89638394524897)
+x#18#78#3                                         587 	(obj:-3.89638394524897)
+x#19#0#1                              223.08214077915 	(obj:-38.371180129791)
+x#19#0#2                              223.08214077915 	(obj:-38.371180129791)
+x#19#12#2                                      61.635 	(obj:-12.3014422039122)
+x#19#12#3                                       82.18 	(obj:0)
+x#19#26#3                            50.3775450832858 	(obj:-3.85742010579648)
+x#19#79#3                                         587 	(obj:-3.85742010579648)
+x#20#1#1                              223.08214077915 	(obj:-4.33122849966112)
+x#20#1#2                              223.08214077915 	(obj:-4.33122849966112)
+x#20#13#2                                      61.635 	(obj:-12.9373300916378)
+x#20#13#3                                       82.18 	(obj:-3.81884590473851)
+x#20#27#3                            50.3775450832858 	(obj:-3.81884590473851)
+x#20#80#3                                         587 	(obj:-3.81884590473851)
+x#21#2#1                              223.08214077915 	(obj:-4.95178111712164)
+x#21#2#2                              223.08214077915 	(obj:-4.95178111712164)
+x#21#14#2                                      61.635 	(obj:-13.5660668106583)
+x#21#14#3                                       82.18 	(obj:-3.78065744569113)
+x#21#28#3                            50.3775450832858 	(obj:-3.78065744569113)
+x#21#81#3                                         587 	(obj:-3.78065744569113)
+x#22#3#1                              223.08214077915 	(obj:-5.56729164889424)
+x#22#3#2                              223.08214077915 	(obj:-5.56729164889424)
+x#22#15#2                                      61.635 	(obj:-14.1876124417693)
+x#22#15#3                                       82.18 	(obj:-3.74285087123422)
+x#22#29#3                            50.3775450832858 	(obj:-3.74285087123422)
+x#22#82#3                                         587 	(obj:-3.74285087123422)
+x#23#4#1                              223.08214077915 	(obj:-6.17853945764698)
+x#23#4#2                              223.08214077915 	(obj:-6.17853945764698)
+x#23#16#2                                      61.635 	(obj:-14.8019302866699)
+x#23#16#3                                       82.18 	(obj:-3.70542236252187)
+x#23#30#3                            50.3775450832858 	(obj:-3.70542236252187)
+x#23#83#3                                         587 	(obj:-3.70542236252187)
+x#24#5#1                              223.08214077915 	(obj:-6.78627323126987)
+x#24#5#2                              223.08214077915 	(obj:-6.78627323126987)
+x#24#17#2                                      61.635 	(obj:-15.4089867853238)
+x#24#17#3                                       82.18 	(obj:-3.66836813889665)
+x#24#31#3                            50.3775450832858 	(obj:-3.66836813889665)
+x#24#84#3                                         587 	(obj:-3.66836813889665)
+x#25#6#1                              223.08214077915 	(obj:-7.39121175621118)
+x#25#6#2                              223.08214077915 	(obj:-7.39121175621118)
+x#25#18#2                                      61.635 	(obj:-16.0148596707636)
+x#25#18#3                                       82.18 	(obj:-3.63168445750769)
+x#25#32#3                            50.3775450832858 	(obj:-3.63168445750769)
+x#25#85#3                                         587 	(obj:-3.63168445750769)
+x#26#7#2                             156.157498545405 	(obj:-7.99197275022216)
+x#26#19#3                                       82.18 	(obj:-3.59536761293261)
+x#26#33#3                            50.3775450832858 	(obj:-3.59536761293261)
+x#26#86#3                                         587 	(obj:-3.59536761293261)
+x#27#8#2                             156.157498545405 	(obj:-8.58667160068736)
+x#27#20#3                                       82.18 	(obj:-3.55941393680328)
+x#27#34#3                            50.3775450832858 	(obj:-3.55941393680328)
+x#27#87#3                                         587 	(obj:-3.55941393680328)
+x#28#9#2                             156.157498545405 	(obj:-9.17525417307399)
+x#28#21#3                                       82.18 	(obj:-3.52381979743525)
+x#28#35#3                            50.3775450832858 	(obj:-3.52381979743525)
+x#28#88#3                                         587 	(obj:-3.52381979743525)
+x#29#10#2                            156.157498545405 	(obj:-9.7576696585606)
+x#29#22#3                                       82.18 	(obj:-3.4885815994609)
+x#29#36#3                            50.3775450832858 	(obj:-3.4885815994609)
+x#29#89#3                                         587 	(obj:-3.4885815994609)
+x#30#11#2                            156.157498545405 	(obj:-10.3338704917303)
+x#30#23#3                                       82.18 	(obj:-3.45369578346629)
+x#30#37#3                            50.3775450832858 	(obj:-3.45369578346629)
+x#30#90#3                                         587 	(obj:-3.45369578346629)
+x#31#0#1                              251.84514077915 	(obj:-34.0116335769413)
+x#31#0#2                              251.84514077915 	(obj:-34.0116335769413)
+x#31#12#2                             66.924642233745 	(obj:-10.9038122698381)
+x#31#12#3                              89.23285631166 	(obj:0)
+x#31#24#3                                       82.18 	(obj:-3.41915882563163)
+x#31#38#3                            50.3775450832858 	(obj:-3.41915882563163)
+x#31#91#3                                         587 	(obj:-3.41915882563163)
+x#32#1#1                              251.84514077915 	(obj:-3.83913541804536)
+x#32#1#2                              251.84514077915 	(obj:-3.83913541804536)
+x#32#13#2                             66.924642233745 	(obj:-11.4674536736256)
+x#32#13#3                              89.23285631166 	(obj:-3.38496723737531)
+x#32#25#3                                       82.18 	(obj:-3.38496723737531)
+x#32#39#3                            50.3775450832858 	(obj:-3.38496723737531)
+x#32#92#3                                         587 	(obj:-3.38496723737531)
+x#33#2#1                              251.84514077915 	(obj:-4.38918387026621)
+x#33#2#2                              251.84514077915 	(obj:-4.38918387026621)
+x#33#14#2                             66.924642233745 	(obj:-12.0247563896578)
+x#33#14#3                              89.23285631166 	(obj:-3.35111756500156)
+x#33#26#3                                       82.18 	(obj:-3.35111756500156)
+x#33#40#3                            50.3775450832858 	(obj:-3.35111756500156)
+x#33#93#3                                         587 	(obj:-3.35111756500156)
+x#34#3#1                              251.84514077915 	(obj:-4.93476309401139)
+x#34#3#2                              251.84514077915 	(obj:-4.93476309401139)
+x#34#15#2                             66.924642233745 	(obj:-12.5756850341558)
+x#34#15#3                              89.23285631166 	(obj:-3.31760638935154)
+x#34#27#3                                       82.18 	(obj:-3.31760638935154)
+x#34#41#3                            50.3775450832858 	(obj:-3.31760638935154)
+x#34#94#3                                         587 	(obj:-3.31760638935154)
+x#35#4#1                              251.84514077915 	(obj:-5.47656390455946)
+x#35#4#2                              251.84514077915 	(obj:-5.47656390455946)
+x#35#16#2                             66.924642233745 	(obj:-13.120207078301)
+x#35#16#3                              89.23285631166 	(obj:-3.28443032545803)
+x#35#28#3                                       82.18 	(obj:-3.28443032545803)
+x#35#42#3                            50.3775450832858 	(obj:-3.28443032545803)
+x#35#95#3                                         587 	(obj:-3.28443032545803)
+x#36#5#1                              251.84514077915 	(obj:-6.01524992752975)
+x#36#5#2                              251.84514077915 	(obj:-6.01524992752975)
+x#36#17#2                             66.924642233745 	(obj:-13.6582927749848)
+x#36#17#3                              89.23285631166 	(obj:-3.25158602220345)
+x#36#29#3                                       82.18 	(obj:-3.25158602220345)
+x#36#43#3                            50.3775450832858 	(obj:-3.25158602220345)
+x#36#96#3                                         587 	(obj:-3.25158602220345)
+x#37#6#1                              251.84514077915 	(obj:-6.55145828435599)
+x#37#6#2                              251.84514077915 	(obj:-6.55145828435599)
+x#37#18#2                             66.924642233745 	(obj:-14.1953293348216)
+x#37#18#3                              89.23285631166 	(obj:-3.21907016198141)
+x#37#30#3                                       82.18 	(obj:-3.21907016198141)
+x#37#44#3                            50.3775450832858 	(obj:-3.21907016198141)
+x#37#97#3                                         587 	(obj:-3.21907016198141)
+x#38#7#1                              251.84514077915 	(obj:-7.08396374096447)
+x#38#7#2                              251.84514077915 	(obj:-7.08396374096447)
+x#38#19#3                              89.23285631166 	(obj:-3.1868794603616)
+x#38#31#3                                       82.18 	(obj:-3.1868794603616)
+x#38#45#3                            50.3775450832858 	(obj:-3.1868794603616)
+x#38#98#3                                         587 	(obj:-3.1868794603616)
+x#39#8#1                              251.84514077915 	(obj:-7.6110958052438)
+x#39#8#2                              251.84514077915 	(obj:-7.6110958052438)
+x#39#20#3                              89.23285631166 	(obj:-3.15501066575798)
+x#39#32#3                            82.1800000092198 	(obj:-3.15501066575798)
+x#39#46#3                            50.3775450832858 	(obj:-3.15501066575798)
+x#40#9#2                             176.291598545405 	(obj:-8.13280649316307)
+x#40#21#3                              89.23285631166 	(obj:-3.1234605591004)
+x#40#33#3                            82.1800000092198 	(obj:-3.1234605591004)
+x#40#47#3                            50.3775450832858 	(obj:-3.1234605591004)
+x#41#10#2                            176.291598545405 	(obj:-8.64905076855161)
+x#41#22#3                              89.23285631166 	(obj:-3.0922259535094)
+x#41#34#3                            82.1800000092198 	(obj:-3.0922259535094)
+x#41#48#3                            50.3775450832858 	(obj:-3.0922259535094)
+x#42#11#2                            176.291598545405 	(obj:-9.15978647014348)
+x#42#23#3                              89.23285631166 	(obj:-3.0613036939743)
+x#42#35#3                            82.1800000092198 	(obj:-3.0613036939743)
+x#42#49#3                            50.3775450832858 	(obj:-3.0613036939743)
+x#43#0#1                              77.626640491458 	(obj:-30.1473974649531)
+x#43#0#2                              77.626640491458 	(obj:-30.1473974649531)
+x#43#12#2                             75.553542233745 	(obj:-9.66497424001721)
+x#43#12#3                             100.73805631166 	(obj:0)
+x#43#24#3                              89.23285631166 	(obj:-3.03069065703456)
+x#43#36#3                            82.1800000092198 	(obj:-3.03069065703456)
+x#43#50#3                            50.3775450832858 	(obj:-3.03069065703456)
+x#44#1#1                              77.626640491458 	(obj:-3.40295155502499)
+x#44#1#2                              77.626640491458 	(obj:-3.40295155502499)
+x#44#13#2                             75.553542233745 	(obj:-10.1645774534073)
+x#44#13#3                             100.73805631166 	(obj:-3.00038375046422)
+x#44#25#3                              89.23285631166 	(obj:-3.00038375046422)
+x#44#37#3                            82.1800000092198 	(obj:-3.00038375046422)
+x#44#51#3                            50.3775450832858 	(obj:-3.00038375046422)
+x#45#2#1                              77.626640491458 	(obj:-3.89050618178442)
+x#45#2#2                              77.626640491458 	(obj:-3.89050618178442)
+x#45#14#2                             75.553542233745 	(obj:-10.6585621498645)
+x#45#14#3                             100.73805631166 	(obj:-2.97037991295957)
+x#45#26#3                              89.23285631166 	(obj:-2.97037991295957)
+x#45#38#3                            82.1800000092198 	(obj:-2.97037991295957)
+x#45#52#3                            50.3775450832858 	(obj:-2.97037991295957)
+x#46#3#1                              77.626640491458 	(obj:-4.37409935203478)
+x#46#3#2                              77.626640491458 	(obj:-4.37409935203478)
+x#46#15#2                             75.553542233745 	(obj:-11.1468969657427)
+x#46#15#3                             100.73805631166 	(obj:-2.94067611382998)
+x#46#27#3                              89.23285631166 	(obj:-2.94067611382998)
+x#46#39#3                            82.1800000092198 	(obj:-2.94067611382998)
+x#46#53#3                            50.3775450832858 	(obj:-2.94067611382998)
+x#47#4#1                              77.626640491458 	(obj:-4.85434339398812)
+x#47#4#2                              77.626640491458 	(obj:-4.85434339398812)
+x#47#16#2                             75.553542233745 	(obj:-11.6295530679889)
+x#47#16#3                             100.73805631166 	(obj:-2.91126935269168)
+x#47#28#3                              89.23285631166 	(obj:-2.91126935269168)
+x#47#40#3                            82.1800000092198 	(obj:-2.91126935269168)
+x#47#54#3                            50.3775450832858 	(obj:-2.91126935269168)
+x#48#5#1                              77.626640491458 	(obj:-5.33182653535391)
+x#48#5#2                              77.626640491458 	(obj:-5.33182653535391)
+x#48#17#2                             75.553542233745 	(obj:-12.1065040892162)
+x#48#17#3                             100.73805631166 	(obj:-2.88215665916476)
+x#48#29#3                              89.23285631166 	(obj:-2.88215665916476)
+x#48#41#3                            82.1800000092198 	(obj:-2.88215665916476)
+x#48#55#3                            50.3775450832858 	(obj:-2.88215665916476)
+x#49#6#1                              77.626640491458 	(obj:-5.80711351093246)
+x#49#6#2                              77.626640491458 	(obj:-5.80711351093246)
+x#49#18#2                             75.553542233745 	(obj:-12.582525171414)
+x#49#18#3                             100.73805631166 	(obj:-2.85333509257311)
+x#49#30#3                              89.23285631166 	(obj:-2.85333509257311)
+x#49#42#3                            82.1800000092198 	(obj:-2.85333509257311)
+x#49#56#3                            50.3775450832858 	(obj:-2.85333509257311)
+x#50#7#2                             54.3386483440206 	(obj:-6.2791182917765)
+x#50#19#3                             100.73805631166 	(obj:-2.82480174164738)
+x#50#31#3                              89.23285631166 	(obj:-2.82480174164738)
+x#50#43#3                            82.1800000092198 	(obj:-2.82480174164738)
+x#50#57#3                            50.3775450832858 	(obj:-2.82480174164738)
+x#51#8#2                             54.3386483440206 	(obj:-6.74636017895019)
+x#51#20#3                             100.73805631166 	(obj:-2.79655372423091)
+x#51#32#3                              89.23285631166 	(obj:-2.79655372423091)
+x#51#44#3                            82.1800000092198 	(obj:-2.79655372423091)
+x#51#58#3                            50.3775450832858 	(obj:-2.79655372423091)
+x#52#9#2                             54.3386483440206 	(obj:-7.20879664013445)
+x#52#21#3                             100.73805631166 	(obj:-2.7685881869886)
+x#52#33#3                              89.23285631166 	(obj:-2.7685881869886)
+x#52#45#3                            82.1800000092198 	(obj:-2.7685881869886)
+x#52#59#3                            50.3775450832858 	(obj:-2.7685881869886)
+x#53#10#2                            54.3386483440206 	(obj:-7.6663877559489)
+x#53#22#3                             100.73805631166 	(obj:-2.74090230511871)
+x#53#34#3                              89.23285631166 	(obj:-2.74090230511871)
+x#53#46#3                            82.1800000092198 	(obj:-2.74090230511871)
+x#53#60#3                            50.3775450832858 	(obj:-2.74090230511871)
+x#54#11#2                            54.3386483440206 	(obj:-8.11909615528527)
+x#54#23#3                             100.73805631166 	(obj:-2.71349328206753)
+x#54#35#3                              89.23285631166 	(obj:-2.71349328206753)
+x#54#47#3                            82.1800000092198 	(obj:-2.71349328206753)
+x#54#61#3                            50.3775450832858 	(obj:-2.71349328206753)
+x#55#0#1                             112.884960200539 	(obj:-26.7221970345476)
+x#55#0#2                             112.884960200539 	(obj:-26.7221970345476)
+x#55#12#2                            23.2879921474374 	(obj:-8.56688695187735)
+x#55#12#3                            31.0506561965832 	(obj:0)
+x#55#24#3                             100.73805631166 	(obj:-2.68635834924685)
+x#55#36#3                              89.23285631166 	(obj:-2.68635834924685)
+x#55#48#3                            82.1800000092198 	(obj:-2.68635834924685)
+x#55#62#3                            50.3775450832858 	(obj:-2.68635834924685)
+x#56#1#1                             112.884960200539 	(obj:-3.01632477755702)
+x#56#1#2                             112.884960200539 	(obj:-3.01632477755702)
+x#56#13#2                            23.2879921474374 	(obj:-9.00972768208708)
+x#56#13#3                            31.0506561965832 	(obj:-2.65949476575438)
+x#56#25#3                             100.73805631166 	(obj:-2.65949476575438)
+x#56#37#3                              89.23285631166 	(obj:-2.65949476575438)
+x#56#49#3                            82.1800000092198 	(obj:-2.65949476575438)
+x#56#63#3                            50.3775450832858 	(obj:-2.65949476575438)
+x#57#2#1                             112.884960200539 	(obj:-3.44848582285179)
+x#57#2#2                             112.884960200539 	(obj:-3.44848582285179)
+x#57#14#2                            23.2879921474374 	(obj:-9.44758824388606)
+x#57#14#3                            31.0506561965832 	(obj:-2.63289981809684)
+x#57#26#3                             100.73805631166 	(obj:-2.63289981809684)
+x#57#38#3                              89.23285631166 	(obj:-2.63289981809684)
+x#57#50#3                            82.1800000092198 	(obj:-2.63289981809684)
+x#57#64#3                            50.3775450832858 	(obj:-2.63289981809684)
+x#58#3#1                             112.884960200539 	(obj:-3.87713549302695)
+x#58#3#2                             112.884960200539 	(obj:-3.87713549302695)
+x#58#15#2                            23.2879921474374 	(obj:-9.88044083701273)
+x#58#15#3                            31.0506561965832 	(obj:-2.60657081991587)
+x#58#27#3                             100.73805631166 	(obj:-2.60657081991587)
+x#58#39#3                              89.23285631166 	(obj:-2.60657081991587)
+x#58#51#3                            82.1800000092198 	(obj:-2.60657081991587)
+x#58#65#3                            50.3775450832858 	(obj:-2.60657081991587)
+x#59#4#1                             112.884960200539 	(obj:-4.3028165465462)
+x#59#4#2                             112.884960200539 	(obj:-4.3028165465462)
+x#59#16#2                            23.2879921474374 	(obj:-10.3082599042852)
+x#59#16#3                            31.0506561965832 	(obj:-2.58050511171671)
+x#59#28#3                             100.73805631166 	(obj:-2.58050511171671)
+x#59#40#3                              89.23285631166 	(obj:-2.58050511171671)
+x#59#52#3                            82.1800000092198 	(obj:-2.58050511171671)
+x#59#66#3                            50.3775450832858 	(obj:-2.58050511171671)
+x#60#5#1                             112.884960200539 	(obj:-4.72605037955233)
+x#60#5#2                             112.884960200539 	(obj:-4.72605037955233)
+x#60#17#2                            23.2879921474374 	(obj:-10.7310220740507)
+x#60#17#3                            31.0506561965832 	(obj:-2.55470006059954)
+x#60#29#3                             100.73805631166 	(obj:-2.55470006059954)
+x#60#41#3                              89.23285631166 	(obj:-2.55470006059954)
+x#60#53#3                            82.1800000092198 	(obj:-2.55470006059954)
+x#60#67#3                            50.3775450832858 	(obj:-2.55470006059954)
+x#61#6#1                             112.884960200539 	(obj:-5.14733756442887)
+x#61#6#2                             112.884960200539 	(obj:-5.14733756442887)
+x#61#18#2                            23.2879921474374 	(obj:-11.1529599599288)
+x#61#18#3                            31.0506561965832 	(obj:-2.52915305999355)
+x#61#30#3                             100.73805631166 	(obj:-2.52915305999355)
+x#61#42#3                              89.23285631166 	(obj:-2.52915305999355)
+x#61#54#3                            82.1800000092198 	(obj:-2.52915305999355)
+x#61#68#3                            50.3775450832858 	(obj:-2.52915305999355)
+x#62#7#2                             79.0194721403773 	(obj:-5.56571546154672)
+x#62#19#3                            31.0506561965832 	(obj:-2.50386152939361)
+x#62#31#3                             100.73805631166 	(obj:-2.50386152939361)
+x#62#43#3                              89.23285631166 	(obj:-2.50386152939361)
+x#62#55#3                            82.1800000092198 	(obj:-2.50386152939361)
+x#62#69#3                            50.3775450832858 	(obj:-2.50386152939361)
+x#63#8#2                             79.0194721403773 	(obj:-5.97987160176957)
+x#63#20#3                            31.0506561965832 	(obj:-2.47882291409968)
+x#63#32#3                             100.73805631166 	(obj:-2.47882291409968)
+x#63#44#3                              89.23285631166 	(obj:-2.47882291409968)
+x#63#56#3                            82.1800000092198 	(obj:-2.47882291409968)
+x#63#70#3                            50.3775450832858 	(obj:-2.47882291409968)
+x#64#9#2                             79.0194721403773 	(obj:-6.38976828509324)
+x#64#21#3                            31.0506561965832 	(obj:-2.45403468495868)
+x#64#33#3                             100.73805631166 	(obj:-2.45403468495868)
+x#64#45#3                              89.23285631166 	(obj:-2.45403468495868)
+x#64#57#3                            82.1800000092198 	(obj:-2.45403468495868)
+x#64#71#3                            50.3775450832858 	(obj:-2.45403468495868)
+x#65#10#2                            79.0194721403773 	(obj:-6.79537012758287)
+x#65#22#3                            31.0506561965832 	(obj:-2.42949433810909)
+x#65#34#3                             100.73805631166 	(obj:-2.42949433810909)
+x#65#46#3                              89.23285631166 	(obj:-2.42949433810909)
+x#65#58#3                            82.1800000092198 	(obj:-2.42949433810909)
+x#65#72#3                            50.3775450832858 	(obj:-2.42949433810909)
+x#66#11#2                            79.0194721403773 	(obj:-7.19664400405345)
+x#66#23#3                            31.0506561965832 	(obj:-2.405199394728)
+x#66#35#3                             100.73805631166 	(obj:-2.405199394728)
+x#66#47#3                              89.23285631166 	(obj:-2.405199394728)
+x#66#59#3                            82.1800000092198 	(obj:-2.405199394728)
+x#66#73#3                            50.3775450832858 	(obj:-2.405199394728)
+x#67#0#1                             123.752689869343 	(obj:-23.6861511904406)
+x#67#0#2                             123.752689869343 	(obj:-23.6861511904406)
+x#67#12#2                            33.8654880601617 	(obj:-7.59355899184638)
+x#67#12#3                            45.1539840802156 	(obj:0)
+x#67#24#3                            31.0506561965832 	(obj:-2.38114740078072)
+x#67#36#3                             100.73805631166 	(obj:-2.38114740078072)
+x#67#48#3                              89.23285631166 	(obj:-2.38114740078072)
+x#67#60#3                            82.1800000092198 	(obj:-2.38114740078072)
+x#67#74#3                            50.3775450832858 	(obj:-2.38114740078072)
+x#68#1#1                             123.752689869343 	(obj:-2.67362465100907)
+x#68#1#2                             123.752689869343 	(obj:-2.67362465100907)
+x#68#13#2                            33.8654880601617 	(obj:-7.98608631568401)
+x#68#13#3                            45.1539840802156 	(obj:-2.35733592677291)
+x#68#25#3                            31.0506561965832 	(obj:-2.35733592677291)
+x#68#37#3                             100.73805631166 	(obj:-2.35733592677291)
+x#68#49#3                              89.23285631166 	(obj:-2.35733592677291)
+x#68#61#3                            82.1800000092198 	(obj:-2.35733592677291)
+x#68#75#3                            50.3775450832858 	(obj:-2.35733592677291)
+x#69#2#1                             123.752689869343 	(obj:-3.05668566370337)
+x#69#2#2                             123.752689869343 	(obj:-3.05668566370337)
+x#69#14#2                            33.8654880601617 	(obj:-8.37419929358375)
+x#69#14#3                            45.1539840802156 	(obj:-2.33376256750519)
+x#69#26#3                            31.0506561965832 	(obj:-2.33376256750519)
+x#69#38#3                             100.73805631166 	(obj:-2.33376256750519)
+x#69#50#3                              89.23285631166 	(obj:-2.33376256750519)
+x#69#62#3                            82.1800000092198 	(obj:-2.33376256750519)
+x#69#76#3                            50.3775450832858 	(obj:-2.33376256750519)
+x#70#3#1                             123.752689869343 	(obj:-3.43663424661275)
+x#70#3#2                             123.752689869343 	(obj:-3.43663424661275)
+x#70#15#2                            33.8654880601617 	(obj:-8.75787328381434)
+x#70#15#3                            45.1539840802156 	(obj:-2.31042494183013)
+x#70#27#3                            31.0506561965832 	(obj:-2.31042494183013)
+x#70#39#3                             100.73805631166 	(obj:-2.31042494183013)
+x#70#51#3                              89.23285631166 	(obj:-2.31042494183013)
+x#70#63#3                            82.1800000092198 	(obj:-2.31042494183013)
+x#70#77#3                            50.3775450832858 	(obj:-2.31042494183013)
+x#71#4#1                             123.752689869343 	(obj:-3.81395149262839)
+x#71#4#2                             123.752689869343 	(obj:-3.81395149262839)
+x#71#16#2                            33.8654880601617 	(obj:-9.13708563287639)
+x#71#16#3                            45.1539840802156 	(obj:-2.28732069241183)
+x#71#28#3                            31.0506561965832 	(obj:-2.28732069241183)
+x#71#40#3                             100.73805631166 	(obj:-2.28732069241183)
+x#71#52#3                              89.23285631166 	(obj:-2.28732069241183)
+x#71#64#3                            82.1800000092198 	(obj:-2.28732069241183)
+x#71#78#3                            50.3775450832858 	(obj:-2.28732069241183)
+x#72#5#1                             123.752689869343 	(obj:-4.18909955940346)
+x#72#5#2                             123.752689869343 	(obj:-4.18909955940346)
+x#72#17#2                            33.8654880601617 	(obj:-9.51181562449038)
+x#72#17#3                            45.1539840802156 	(obj:-2.26444748548771)
+x#72#29#3                            31.0506561965832 	(obj:-2.26444748548771)
+x#72#41#3                             100.73805631166 	(obj:-2.26444748548771)
+x#72#53#3                              89.23285631166 	(obj:-2.26444748548771)
+x#72#65#3                            82.1800000092198 	(obj:-2.26444748548771)
+x#72#79#3                            50.3775450832858 	(obj:-2.26444748548771)
+x#73#6#1                             123.752689869343 	(obj:-4.5625221467259)
+x#73#6#2                             123.752689869343 	(obj:-4.5625221467259)
+x#73#18#2                            33.8654880601617 	(obj:-9.8858149833366)
+x#73#18#3                            45.1539840802156 	(obj:-2.24180301063284)
+x#73#30#3                            31.0506561965832 	(obj:-2.24180301063284)
+x#73#42#3                             100.73805631166 	(obj:-2.24180301063284)
+x#73#54#3                              89.23285631166 	(obj:-2.24180301063284)
+x#73#66#3                            82.1800000092198 	(obj:-2.24180301063284)
+x#73#80#3                            50.3775450832858 	(obj:-2.24180301063284)
+x#74#7#2                             86.6268829085402 	(obj:-4.93336598539156)
+x#74#19#3                            45.1539840802156 	(obj:-2.21938498052651)
+x#74#31#3                            31.0506561965832 	(obj:-2.21938498052651)
+x#74#43#3                             100.73805631166 	(obj:-2.21938498052651)
+x#74#55#3                              89.23285631166 	(obj:-2.21938498052651)
+x#74#67#3                            82.1800000092198 	(obj:-2.21938498052651)
+x#74#81#3                            50.3775450832858 	(obj:-2.21938498052651)
+x#75#8#2                             86.6268829085402 	(obj:-5.30046772261344)
+x#75#20#3                            45.1539840802156 	(obj:-2.19719113072124)
+x#75#32#3                            31.0506561965832 	(obj:-2.19719113072124)
+x#75#44#3                             100.73805631166 	(obj:-2.19719113072124)
+x#75#56#3                              89.23285631166 	(obj:-2.19719113072124)
+x#75#68#3                            82.1800000092198 	(obj:-2.19719113072124)
+x#75#82#3                            50.3775450832858 	(obj:-2.19719113072124)
+x#76#9#2                             86.6268829085402 	(obj:-5.66379394167816)
+x#76#21#3                            45.1539840802156 	(obj:-2.17521921941403)
+x#76#33#3                            31.0506561965832 	(obj:-2.17521921941403)
+x#76#45#3                             100.73805631166 	(obj:-2.17521921941403)
+x#76#57#3                              89.23285631166 	(obj:-2.17521921941403)
+x#76#69#3                            82.1800000092198 	(obj:-2.17521921941403)
+x#76#83#3                            50.3775450832858 	(obj:-2.17521921941403)
+x#77#10#2                            86.6268829085402 	(obj:-6.02331327880116)
+x#77#22#3                            45.1539840802156 	(obj:-2.15346702721989)
+x#77#34#3                            31.0506561965832 	(obj:-2.15346702721989)
+x#77#46#3                             100.73805631166 	(obj:-2.15346702721989)
+x#77#58#3                              89.23285631166 	(obj:-2.15346702721989)
+x#77#70#3                            82.1800000092198 	(obj:-2.15346702721989)
+x#77#84#3                            50.3775450832858 	(obj:-2.15346702721989)
+x#78#11#2                            86.6268829085402 	(obj:-6.37899637231957)
+x#78#23#3                            45.1539840802156 	(obj:-2.13193235694769)
+x#78#35#3                            31.0506561965832 	(obj:-2.13193235694769)
+x#78#47#3                             100.73805631166 	(obj:-2.13193235694769)
+x#78#59#3                              89.23285631166 	(obj:-2.13193235694769)
+x#78#71#3                            82.1800000092198 	(obj:-2.13193235694769)
+x#78#85#3                            50.3775450832858 	(obj:-2.13193235694769)
+x#79#0#1                             139.556584297419 	(obj:-20.9950460843876)
+x#79#0#2                             139.556584297419 	(obj:-20.9950460843876)
+x#79#12#2                            37.1258069608029 	(obj:-6.73081581285662)
+x#79#12#3                            49.5010759477372 	(obj:0)
+x#79#24#3                            45.1539840802156 	(obj:-2.11061303337821)
+x#79#36#3                            31.0506561965832 	(obj:-2.11061303337821)
+x#79#48#3                             100.73805631166 	(obj:-2.11061303337821)
+x#79#60#3                              89.23285631166 	(obj:-2.11061303337821)
+x#79#72#3                            82.1800000092198 	(obj:-2.11061303337821)
+x#79#86#3                            50.3775450832858 	(obj:-2.11061303337821)
+x#80#1#1                             139.556584297419 	(obj:-2.36986044330175)
+x#80#1#2                             139.556584297419 	(obj:-2.36986044330175)
+x#80#13#2                            37.1258069608029 	(obj:-7.07874609444151)
+x#80#13#3                            49.5010759477372 	(obj:-2.08950690304443)
+x#80#25#3                            45.1539840802156 	(obj:-2.08950690304443)
+x#80#37#3                            31.0506561965832 	(obj:-2.08950690304443)
+x#80#49#3                             100.73805631166 	(obj:-2.08950690304443)
+x#80#61#3                              89.23285631166 	(obj:-2.08950690304443)
+x#80#73#3                            82.1800000092198 	(obj:-2.08950690304443)
+x#80#87#3                            50.3775450832858 	(obj:-2.08950690304443)
+x#81#2#1                             139.556584297419 	(obj:-2.70939992989825)
+x#81#2#2                             139.556584297419 	(obj:-2.70939992989825)
+x#81#14#2                            37.1258069608029 	(obj:-7.42276356656854)
+x#81#14#3                            49.5010759477372 	(obj:-2.06861183401399)
+x#81#26#3                            45.1539840802156 	(obj:-2.06861183401399)
+x#81#38#3                            31.0506561965832 	(obj:-2.06861183401399)
+x#81#50#3                             100.73805631166 	(obj:-2.06861183401399)
+x#81#62#3                              89.23285631166 	(obj:-2.06861183401399)
+x#81#74#3                            82.1800000092198 	(obj:-2.06861183401399)
+x#81#88#3                            50.3775450832858 	(obj:-2.06861183401399)
+x#82#3#1                             139.556584297419 	(obj:-3.04618060581909)
+x#82#3#2                             139.556584297419 	(obj:-3.04618060581909)
+x#82#15#2                            37.1258069608029 	(obj:-7.76284638717988)
+x#82#15#3                            49.5010759477372 	(obj:-2.04792571567385)
+x#82#27#3                            45.1539840802156 	(obj:-2.04792571567385)
+x#82#39#3                            31.0506561965832 	(obj:-2.04792571567385)
+x#82#51#3                             100.73805631166 	(obj:-2.04792571567385)
+x#82#63#3                              89.23285631166 	(obj:-2.04792571567385)
+x#82#75#3                            82.1800000092198 	(obj:-2.04792571567385)
+x#82#89#3                            50.3775450832858 	(obj:-2.04792571567385)
+x#83#4#1                             139.556584297419 	(obj:-3.38062890452496)
+x#83#4#2                             139.556584297419 	(obj:-3.38062890452496)
+x#83#16#2                            37.1258069608029 	(obj:-8.09897447655643)
+x#83#16#3                            49.5010759477372 	(obj:-2.02744645851711)
+x#83#28#3                            45.1539840802156 	(obj:-2.02744645851711)
+x#83#40#3                            31.0506561965832 	(obj:-2.02744645851711)
+x#83#52#3                             100.73805631166 	(obj:-2.02744645851711)
+x#83#64#3                              89.23285631166 	(obj:-2.02744645851711)
+x#83#76#3                            82.1800000092198 	(obj:-2.02744645851711)
+x#83#90#3                            50.3775450832858 	(obj:-2.02744645851711)
+x#84#5#1                             139.556584297419 	(obj:-3.71315447556793)
+x#84#5#2                             139.556584297419 	(obj:-3.71315447556793)
+x#84#17#2                            37.1258069608029 	(obj:-8.43112947210138)
+x#84#17#3                            49.5010759477372 	(obj:-2.00717199393194)
+x#84#29#3                            45.1539840802156 	(obj:-2.00717199393194)
+x#84#41#3                            31.0506561965832 	(obj:-2.00717199393194)
+x#84#53#3                             100.73805631166 	(obj:-2.00717199393194)
+x#84#65#3                              89.23285631166 	(obj:-2.00717199393194)
+x#84#77#3                            82.1800000092198 	(obj:-2.00717199393194)
+x#84#91#3                            50.3775450832858 	(obj:-2.00717199393194)
+x#85#6#1                             139.556584297419 	(obj:-4.04415060772763)
+x#85#6#2                             139.556584297419 	(obj:-4.04415060772763)
+x#85#18#2                            37.1258069608029 	(obj:-8.7626368458142)
+x#85#18#3                            49.5010759477372 	(obj:-1.98710027399262)
+x#85#30#3                            45.1539840802156 	(obj:-1.98710027399262)
+x#85#42#3                            31.0506561965832 	(obj:-1.98710027399262)
+x#85#54#3                             100.73805631166 	(obj:-1.98710027399262)
+x#85#66#3                              89.23285631166 	(obj:-1.98710027399262)
+x#85#78#3                            82.1800000092198 	(obj:-1.98710027399262)
+x#85#92#3                            50.3775450832858 	(obj:-1.98710027399262)
+x#86#7#2                              97.689609008193 	(obj:-4.37286097609002)
+x#86#19#3                            49.5010759477372 	(obj:-1.96722927125269)
+x#86#31#3                            45.1539840802156 	(obj:-1.96722927125269)
+x#86#43#3                            31.0506561965832 	(obj:-1.96722927125269)
+x#86#55#3                             100.73805631166 	(obj:-1.96722927125269)
+x#86#67#3                              89.23285631166 	(obj:-1.96722927125269)
+x#86#79#3                            82.1800000092198 	(obj:-1.96722927125269)
+x#86#93#3                            50.3775450832858 	(obj:-1.96722927125269)
+x#87#8#2                              97.689609008193 	(obj:-4.6982544023442)
+x#87#20#3                            49.5010759477372 	(obj:-1.94755697854017)
+x#87#32#3                            45.1539840802156 	(obj:-1.94755697854017)
+x#87#44#3                            31.0506561965832 	(obj:-1.94755697854017)
+x#87#56#3                             100.73805631166 	(obj:-1.94755697854017)
+x#87#68#3                              89.23285631166 	(obj:-1.94755697854017)
+x#87#80#3                            82.1800000092198 	(obj:-1.94755697854017)
+x#87#94#3                            50.3775450832858 	(obj:-1.94755697854017)
+x#88#9#2                              97.689609008193 	(obj:-5.02030126642098)
+x#88#21#3                            49.5010759477372 	(obj:-1.92808140875476)
+x#88#33#3                            45.1539840802156 	(obj:-1.92808140875476)
+x#88#45#3                            31.0506561965832 	(obj:-1.92808140875476)
+x#88#57#3                             100.73805631166 	(obj:-1.92808140875476)
+x#88#69#3                              89.23285631166 	(obj:-1.92808140875476)
+x#88#81#3                            82.1800000092198 	(obj:-1.92808140875476)
+x#88#95#3                            50.3775450832858 	(obj:-1.92808140875476)
+x#89#10#2                             97.689609008193 	(obj:-5.33897376793622)
+x#89#22#3                            49.5010759477372 	(obj:-1.90880059466722)
+x#89#34#3                            45.1539840802156 	(obj:-1.90880059466722)
+x#89#46#3                            31.0506561965832 	(obj:-1.90880059466722)
+x#89#58#3                             100.73805631166 	(obj:-1.90880059466722)
+x#89#70#3                              89.23285631166 	(obj:-1.90880059466722)
+x#89#82#3                            82.1800000092198 	(obj:-1.90880059466722)
+x#89#96#3                            50.3775450832858 	(obj:-1.90880059466722)
+x#90#11#2                             97.689609008193 	(obj:-5.65424588115613)
+x#90#23#3                            49.5010759477372 	(obj:-1.88971258872054)
+x#90#35#3                            45.1539840802156 	(obj:-1.88971258872054)
+x#90#47#3                            31.0506561965832 	(obj:-1.88971258872054)
+x#90#59#3                             100.73805631166 	(obj:-1.88971258872054)
+x#90#71#3                              89.23285631166 	(obj:-1.88971258872054)
+x#90#83#3                            82.1800000092198 	(obj:-1.88971258872054)
+x#90#97#3                            50.3775450832858 	(obj:-1.88971258872054)
+x#91#0#1                             156.881960879127 	(obj:-18.6096912301841)
+x#91#0#2                             156.881960879127 	(obj:-18.6096912301841)
+x#91#12#2                            41.8669752892256 	(obj:-5.96609331082381)
+x#91#12#3                            55.8226337189674 	(obj:0)
+x#91#24#3                            49.5010759477372 	(obj:-1.87081546283334)
+x#91#36#3                            45.1539840802156 	(obj:-1.87081546283334)
+x#91#48#3                            31.0506561965832 	(obj:-1.87081546283334)
+x#91#60#3                             100.73805631166 	(obj:-1.87081546283334)
+x#91#72#3                              89.23285631166 	(obj:-1.87081546283334)
+x#91#84#3                            82.1800000092198 	(obj:-1.87081546283334)
+x#91#98#3                            50.3775450832858 	(obj:-1.87081546283334)
+x#92#1#1                             156.881960879127 	(obj:-2.10060844502115)
+x#92#1#2                             156.881960879127 	(obj:-2.10060844502115)
+x#92#13#2                            41.8669752892256 	(obj:-6.27449344883259)
+x#92#13#3                            55.8226337189674 	(obj:-1.85210730820501)
+x#92#25#3                            49.5010759477372 	(obj:-1.85210730820501)
+x#92#37#3                            45.1539840802156 	(obj:-1.85210730820501)
+x#92#49#3                            31.0506561965832 	(obj:-1.85210730820501)
+x#92#61#3                             100.73805631166 	(obj:-1.85210730820501)
+x#92#73#3                              89.23285631166 	(obj:-1.85210730820501)
+x#92#85#3                            82.1800000092198 	(obj:-1.85210730820501)
+x#92#99#3                            50.3775450832858 	(obj:-1.85210730820501)
+x#93#2#1                             156.881960879127 	(obj:-2.40157110929055)
+x#93#2#2                             156.881960879127 	(obj:-2.40157110929055)
+x#93#14#2                            41.8669752892256 	(obj:-6.57942533173201)
+x#93#14#3                            55.8226337189674 	(obj:-1.83358623512296)
+x#93#26#3                            49.5010759477372 	(obj:-1.83358623512296)
+x#93#38#3                            45.1539840802156 	(obj:-1.83358623512296)
+x#93#50#3                            31.0506561965832 	(obj:-1.83358623512296)
+x#93#62#3                             100.73805631166 	(obj:-1.83358623512296)
+x#93#74#3                              89.23285631166 	(obj:-1.83358623512296)
+x#93#86#3                            82.1800000092198 	(obj:-1.83358623512296)
+x#93#100#3                           50.3775450832858 	(obj:-1.83358623512296)
+x#94#3#1                             156.881960879127 	(obj:-2.70008840551312)
+x#94#3#2                             156.881960879127 	(obj:-2.70008840551312)
+x#94#15#2                            41.8669752892256 	(obj:-6.88086959905246)
+x#94#15#3                            55.8226337189674 	(obj:-1.81525037277173)
+x#94#27#3                            49.5010759477372 	(obj:-1.81525037277173)
+x#94#39#3                            45.1539840802156 	(obj:-1.81525037277173)
+x#94#51#3                            31.0506561965832 	(obj:-1.81525037277173)
+x#94#63#3                             100.73805631166 	(obj:-1.81525037277173)
+x#94#75#3                              89.23285631166 	(obj:-1.81525037277173)
+x#94#87#3                            82.1800000092198 	(obj:-1.81525037277173)
+x#94#101#3                           50.3775450832858 	(obj:-1.81525037277173)
+x#95#4#1                             156.881960879127 	(obj:-2.99653831785719)
+x#95#4#2                             156.881960879127 	(obj:-2.99653831785719)
+x#95#16#2                            41.8669752892256 	(obj:-7.17880845243467)
+x#95#16#3                            55.8226337189674 	(obj:-1.79709786904401)
+x#95#28#3                            49.5010759477372 	(obj:-1.79709786904401)
+x#95#40#3                            45.1539840802156 	(obj:-1.79709786904401)
+x#95#52#3                            31.0506561965832 	(obj:-1.79709786904401)
+x#95#64#3                             100.73805631166 	(obj:-1.79709786904401)
+x#95#76#3                              89.23285631166 	(obj:-1.79709786904401)
+x#95#88#3                            82.1800000092198 	(obj:-1.79709786904401)
+x#95#102#3                           50.3775450832858 	(obj:-1.79709786904401)
+x#96#5#1                             156.881960879127 	(obj:-3.29128395348845)
+x#96#5#2                             156.881960879127 	(obj:-3.29128395348845)
+x#96#17#2                            41.8669752892256 	(obj:-7.47322561555065)
+x#96#17#3                            55.8226337189674 	(obj:-1.77912689035357)
+x#96#29#3                            49.5010759477372 	(obj:-1.77912689035357)
+x#96#41#3                            45.1539840802156 	(obj:-1.77912689035357)
+x#96#53#3                            31.0506561965832 	(obj:-1.77912689035357)
+x#96#65#3                             100.73805631166 	(obj:-1.77912689035357)
+x#96#77#3                              89.23285631166 	(obj:-1.77912689035357)
+x#96#89#3                            82.1800000092198 	(obj:-1.77912689035357)
+x#96#103#3                           50.3775450832858 	(obj:-1.77912689035357)
+x#97#6#1                             156.881960879127 	(obj:-3.58467391763136)
+x#97#6#2                             156.881960879127 	(obj:-3.58467391763136)
+x#97#18#2                            41.8669752892256 	(obj:-7.76706873647205)
+x#97#18#3                            55.8226337189674 	(obj:-1.76133562145003)
+x#97#30#3                            49.5010759477372 	(obj:-1.76133562145003)
+x#97#42#3                            45.1539840802156 	(obj:-1.76133562145003)
+x#97#54#3                            31.0506561965832 	(obj:-1.76133562145003)
+x#97#66#3                             100.73805631166 	(obj:-1.76133562145003)
+x#97#78#3                              89.23285631166 	(obj:-1.76133562145003)
+x#97#90#3                            82.1800000092198 	(obj:-1.76133562145003)
+x#97#104#3                           50.3775450832858 	(obj:-1.76133562145003)
+x#98#7#2                             109.817372615389 	(obj:-3.87603781532402)
+x#98#19#3                            55.8226337189674 	(obj:-1.74372226523553)
+x#98#31#3                            49.5010759477372 	(obj:-1.74372226523553)
+x#98#43#3                            45.1539840802156 	(obj:-1.74372226523553)
+x#98#55#3                            31.0506561965832 	(obj:-1.74372226523553)
+x#98#67#3                             100.73805631166 	(obj:-1.74372226523553)
+x#98#79#3                              89.23285631166 	(obj:-1.74372226523553)
+x#98#91#3                            82.1800000092198 	(obj:-1.74372226523553)
+x#98#105#3                           50.3775450832858 	(obj:-1.74372226523553)
+x#99#8#2                             109.817372615389 	(obj:-4.1644616257116)
+x#99#20#3                            55.8226337189674 	(obj:-1.72628504258318)
+x#99#32#3                            49.5010759477372 	(obj:-1.72628504258318)
+x#99#44#3                            45.1539840802156 	(obj:-1.72628504258318)
+x#99#56#3                            31.0506561965832 	(obj:-1.72628504258318)
+x#99#68#3                             100.73805631166 	(obj:-1.72628504258318)
+x#99#80#3                              89.23285631166 	(obj:-1.72628504258318)
+x#99#92#3                            82.1800000092198 	(obj:-1.72628504258318)
+x#99#106#3                           50.3775450832858 	(obj:-1.72628504258318)
+x#100#9#2                            109.817372615389 	(obj:-4.44991909401289)
+x#100#21#3                           55.8226337189674 	(obj:-1.70902219215735)
+x#100#33#3                           49.5010759477372 	(obj:-1.70902219215735)
+x#100#45#3                           45.1539840802156 	(obj:-1.70902219215735)
+x#100#57#3                           31.0506561965832 	(obj:-1.70902219215735)
+x#100#69#3                            100.73805631166 	(obj:-1.70902219215735)
+x#100#81#3                             89.23285631166 	(obj:-1.70902219215735)
+x#100#93#3                           82.1800000092198 	(obj:-1.70902219215735)
+x#100#107#3                          50.3775450832858 	(obj:-1.70902219215735)
+x#101#10#2                           109.817372615389 	(obj:-4.73238557838793)
+x#101#22#3                           55.8226337189674 	(obj:-1.69193197023577)
+x#101#34#3                           49.5010759477372 	(obj:-1.69193197023577)
+x#101#46#3                           45.1539840802156 	(obj:-1.69193197023577)
+x#101#58#3                           31.0506561965832 	(obj:-1.69193197023577)
+x#101#70#3                            100.73805631166 	(obj:-1.69193197023577)
+x#101#82#3                             89.23285631166 	(obj:-1.69193197023577)
+x#101#94#3                           82.1800000092198 	(obj:-1.69193197023577)
+x#101#108#3                          50.3775450832858 	(obj:-1.69193197023577)
+x#102#11#2                           109.817372615389 	(obj:-5.01183801002003)
+x#102#23#3                           55.8226337189674 	(obj:-1.67501265053341)
+x#102#35#3                           49.5010759477372 	(obj:-1.67501265053341)
+x#102#47#3                           45.1539840802156 	(obj:-1.67501265053341)
+x#102#59#3                           31.0506561965832 	(obj:-1.67501265053341)
+x#102#71#3                            100.73805631166 	(obj:-1.67501265053341)
+x#102#83#3                             89.23285631166 	(obj:-1.67501265053341)
+x#102#95#3                           82.1800000092198 	(obj:-1.67501265053341)
+x#102#109#3                          50.3775450832858 	(obj:-1.67501265053341)
+x#103#0#1                            176.419882680765 	(obj:-16.4953487737435)
+x#103#0#2                            176.419882680765 	(obj:-16.4953487737435)
+x#103#12#2                            47.064588263738 	(obj:-5.28825485396102)
+x#103#12#3                           62.7527843516506 	(obj:0)
+x#103#24#3                           55.8226337189674 	(obj:-1.65826252402808)
+x#103#36#3                           49.5010759477372 	(obj:-1.65826252402808)
+x#103#48#3                           45.1539840802156 	(obj:-1.65826252402808)
+x#103#60#3                           31.0506561965832 	(obj:-1.65826252402808)
+x#103#72#3                            100.73805631166 	(obj:-1.65826252402808)
+x#103#84#3                             89.23285631166 	(obj:-1.65826252402808)
+x#103#96#3                           82.1800000092198 	(obj:-1.65826252402808)
+x#103#110#3                          50.3775450832858 	(obj:-1.65826252402808)
+x#104#1#1                            176.419882680765 	(obj:-1.86194754706589)
+x#104#1#2                            176.419882680765 	(obj:-1.86194754706589)
+x#104#13#2                            47.064588263738 	(obj:-5.56161607072716)
+x#104#13#3                           62.7527843516506 	(obj:-1.6416798987878)
+x#104#25#3                           55.8226337189674 	(obj:-1.6416798987878)
+x#104#37#3                           49.5010759477372 	(obj:-1.6416798987878)
+x#104#49#3                           45.1539840802156 	(obj:-1.6416798987878)
+x#104#61#3                           31.0506561965832 	(obj:-1.6416798987878)
+x#104#73#3                            100.73805631166 	(obj:-1.6416798987878)
+x#104#85#3                             89.23285631166 	(obj:-1.6416798987878)
+x#104#97#3                           82.1800000092198 	(obj:-1.6416798987878)
+x#104#111#3                          50.3775450832858 	(obj:-1.6416798987878)
+x#105#2#1                            176.419882680765 	(obj:-2.12871629962566)
+x#105#2#2                            176.419882680765 	(obj:-2.12871629962566)
+x#105#14#2                            47.064588263738 	(obj:-5.83190307863313)
+x#105#14#3                           62.7527843516506 	(obj:-1.62526309979992)
+x#105#26#3                           55.8226337189674 	(obj:-1.62526309979992)
+x#105#38#3                           49.5010759477372 	(obj:-1.62526309979992)
+x#105#50#3                           45.1539840802156 	(obj:-1.62526309979992)
+x#105#62#3                           31.0506561965832 	(obj:-1.62526309979992)
+x#105#74#3                            100.73805631166 	(obj:-1.62526309979992)
+x#105#86#3                             89.23285631166 	(obj:-1.62526309979992)
+x#105#98#3                           82.1800000092198 	(obj:-1.62526309979992)
+x#105#112#3                          50.3775450832858 	(obj:-1.62526309979992)
+x#106#3#1                            176.419882680765 	(obj:-2.39331751494295)
+x#106#3#2                            176.419882680765 	(obj:-2.39331751494295)
+x#106#15#2                            47.064588263738 	(obj:-6.09909871685153)
+x#106#15#3                           62.7527843516506 	(obj:-1.60901046880192)
+x#106#27#3                           55.8226337189674 	(obj:-1.60901046880192)
+x#106#39#3                           49.5010759477372 	(obj:-1.60901046880192)
+x#106#51#3                           45.1539840802156 	(obj:-1.60901046880192)
+x#106#63#3                           31.0506561965832 	(obj:-1.60901046880192)
+x#106#75#3                            100.73805631166 	(obj:-1.60901046880192)
+x#106#87#3                             89.23285631166 	(obj:-1.60901046880192)
+x#106#99#3                           82.1800000092198 	(obj:-1.60901046880192)
+x#106#113#3                          50.3775450832858 	(obj:-1.60901046880192)
+x#107#4#1                            176.419882680765 	(obj:-2.65608623246631)
+x#107#4#2                            176.419882680765 	(obj:-2.65608623246631)
+x#107#16#2                            47.064588263738 	(obj:-6.36318720918597)
+x#107#16#3                           62.7527843516506 	(obj:-1.5929203641139)
+x#107#28#3                           55.8226337189674 	(obj:-1.5929203641139)
+x#107#40#3                           49.5010759477372 	(obj:-1.5929203641139)
+x#107#52#3                           45.1539840802156 	(obj:-1.5929203641139)
+x#107#64#3                           31.0506561965832 	(obj:-1.5929203641139)
+x#107#76#3                            100.73805631166 	(obj:-1.5929203641139)
+x#107#88#3                             89.23285631166 	(obj:-1.5929203641139)
+x#107#100#3                          82.1800000092198 	(obj:-1.5929203641139)
+x#107#114#3                          50.3775450832858 	(obj:-1.5929203641139)
+x#108#5#1                            176.419882680765 	(obj:-2.91734430489421)
+x#108#5#2                            176.419882680765 	(obj:-2.91734430489421)
+x#108#17#2                            47.064588263738 	(obj:-6.62415412854556)
+x#108#17#3                           62.7527843516506 	(obj:-1.57699116047276)
+x#108#29#3                           55.8226337189674 	(obj:-1.57699116047276)
+x#108#41#3                           49.5010759477372 	(obj:-1.57699116047276)
+x#108#53#3                           45.1539840802156 	(obj:-1.57699116047276)
+x#108#65#3                           31.0506561965832 	(obj:-1.57699116047276)
+x#108#77#3                            100.73805631166 	(obj:-1.57699116047276)
+x#108#89#3                             89.23285631166 	(obj:-1.57699116047276)
+x#108#101#3                          82.1800000092198 	(obj:-1.57699116047276)
+x#108#115#3                          50.3775450832858 	(obj:-1.57699116047276)
+x#109#6#1                            176.419882680765 	(obj:-3.17740073062383)
+x#109#6#2                            176.419882680765 	(obj:-3.17740073062383)
+x#109#18#2                            47.064588263738 	(obj:-6.88461222558813)
+x#109#18#3                           62.7527843516506 	(obj:-1.56122124886804)
+x#109#30#3                           55.8226337189674 	(obj:-1.56122124886804)
+x#109#42#3                           49.5010759477372 	(obj:-1.56122124886804)
+x#109#54#3                           45.1539840802156 	(obj:-1.56122124886804)
+x#109#66#3                           31.0506561965832 	(obj:-1.56122124886804)
+x#109#78#3                            100.73805631166 	(obj:-1.56122124886804)
+x#109#90#3                             89.23285631166 	(obj:-1.56122124886804)
+x#109#102#3                          82.1800000092198 	(obj:-1.56122124886804)
+x#109#116#3                          50.3775450832858 	(obj:-1.56122124886804)
+x#110#7#2                            123.493917876536 	(obj:-3.43566128170284)
+x#110#19#3                           62.7527843516506 	(obj:-1.54560903637936)
+x#110#31#3                           55.8226337189674 	(obj:-1.54560903637936)
+x#110#43#3                           49.5010759477372 	(obj:-1.54560903637936)
+x#110#55#3                           45.1539840802156 	(obj:-1.54560903637936)
+x#110#67#3                           31.0506561965832 	(obj:-1.54560903637936)
+x#110#79#3                            100.73805631166 	(obj:-1.54560903637936)
+x#110#91#3                             89.23285631166 	(obj:-1.54560903637936)
+x#110#103#3                          82.1800000092198 	(obj:-1.54560903637936)
+x#110#117#3                          50.3775450832858 	(obj:-1.54560903637936)
+x#111#8#2                            123.493917876536 	(obj:-3.69131578387312)
+x#111#20#3                           62.7527843516506 	(obj:-1.53015294601556)
+x#111#32#3                           55.8226337189674 	(obj:-1.53015294601556)
+x#111#44#3                           49.5010759477372 	(obj:-1.53015294601556)
+x#111#56#3                           45.1539840802156 	(obj:-1.53015294601556)
+x#111#68#3                           31.0506561965832 	(obj:-1.53015294601556)
+x#111#80#3                            100.73805631166 	(obj:-1.53015294601556)
+x#111#92#3                             89.23285631166 	(obj:-1.53015294601556)
+x#111#104#3                          82.1800000092198 	(obj:-1.53015294601556)
+x#111#118#3                          50.3775450832858 	(obj:-1.53015294601556)
+x#112#9#2                            123.493917876536 	(obj:-3.94434096529377)
+x#112#21#3                           62.7527843516506 	(obj:-1.51485141655541)
+x#112#33#3                           55.8226337189674 	(obj:-1.51485141655541)
+x#112#45#3                           49.5010759477372 	(obj:-1.51485141655541)
+x#112#57#3                           45.1539840802156 	(obj:-1.51485141655541)
+x#112#69#3                           31.0506561965832 	(obj:-1.51485141655541)
+x#112#81#3                            100.73805631166 	(obj:-1.51485141655541)
+x#112#93#3                             89.23285631166 	(obj:-1.51485141655541)
+x#112#105#3                          82.1800000092198 	(obj:-1.51485141655541)
+x#112#119#3                          50.3775450832858 	(obj:-1.51485141655541)
+x#113#10#2                           123.493917876536 	(obj:-4.19471498381064)
+x#113#22#3                           62.7527843516506 	(obj:-1.49970290238985)
+x#113#34#3                           55.8226337189674 	(obj:-1.49970290238985)
+x#113#46#3                           49.5010759477372 	(obj:-1.49970290238985)
+x#113#58#3                           45.1539840802156 	(obj:-1.49970290238985)
+x#113#70#3                           31.0506561965832 	(obj:-1.49970290238985)
+x#113#82#3                            100.73805631166 	(obj:-1.49970290238985)
+x#113#94#3                             89.23285631166 	(obj:-1.49970290238985)
+x#113#106#3                          82.1800000092198 	(obj:-1.49970290238985)
+x#113#120#3                          50.3775450832858 	(obj:-1.49970290238985)
+x#114#11#2                           123.493917876536 	(obj:-4.44241739157362)
+x#114#23#3                           62.7527843516506 	(obj:-1.48470587336595)
+x#114#35#3                           55.8226337189674 	(obj:-1.48470587336595)
+x#114#47#3                           49.5010759477372 	(obj:-1.48470587336595)
+x#114#59#3                           45.1539840802156 	(obj:-1.48470587336595)
+x#114#71#3                           31.0506561965832 	(obj:-1.48470587336595)
+x#114#83#3                            100.73805631166 	(obj:-1.48470587336595)
+x#114#95#3                             89.23285631166 	(obj:-1.48470587336595)
+x#114#107#3                          82.1800000092198 	(obj:-1.48470587336595)
+x#115#0#1                            180.751216424693 	(obj:-14.6212276067274)
+x#115#0#2                            180.751216424693 	(obj:-14.6212276067274)
+x#115#12#2                           52.9259648042296 	(obj:-4.68742910033043)
+x#115#12#3                           70.5679530723061 	(obj:0)
+x#115#24#3                           62.7527843516506 	(obj:-1.46985881463229)
+x#115#36#3                           55.8226337189674 	(obj:-1.46985881463229)
+x#115#48#3                           49.5010759477372 	(obj:-1.46985881463229)
+x#115#60#3                           45.1539840802156 	(obj:-1.46985881463229)
+x#115#72#3                           31.0506561965832 	(obj:-1.46985881463229)
+x#115#84#3                            100.73805631166 	(obj:-1.46985881463229)
+x#115#96#3                             89.23285631166 	(obj:-1.46985881463229)
+x#115#108#3                          82.1800000092198 	(obj:-1.46985881463229)
+x#116#1#1                            180.751216424693 	(obj:-1.65040213764816)
+x#116#1#2                            180.751216424693 	(obj:-1.65040213764816)
+x#116#13#2                           52.9259648042296 	(obj:-4.92973234738586)
+x#116#13#3                           70.5679530723061 	(obj:-1.45516022648597)
+x#116#25#3                           62.7527843516506 	(obj:-1.45516022648597)
+x#116#37#3                           55.8226337189674 	(obj:-1.45516022648597)
+x#116#49#3                           49.5010759477372 	(obj:-1.45516022648597)
+x#116#61#3                           45.1539840802156 	(obj:-1.45516022648597)
+x#116#73#3                           31.0506561965832 	(obj:-1.45516022648597)
+x#116#85#3                            100.73805631166 	(obj:-1.45516022648597)
+x#116#97#3                             89.23285631166 	(obj:-1.45516022648597)
+x#116#109#3                          82.1800000092198 	(obj:-1.45516022648597)
+x#117#2#1                            180.751216424693 	(obj:-1.88686192416373)
+x#117#2#2                            180.751216424693 	(obj:-1.88686192416373)
+x#117#14#2                           52.9259648042296 	(obj:-5.16931066221512)
+x#117#14#3                           70.5679530723061 	(obj:-1.44060862422111)
+x#117#26#3                           62.7527843516506 	(obj:-1.44060862422111)
+x#117#38#3                           55.8226337189674 	(obj:-1.44060862422111)
+x#117#50#3                           49.5010759477372 	(obj:-1.44060862422111)
+x#117#62#3                           45.1539840802156 	(obj:-1.44060862422111)
+x#117#74#3                           31.0506561965832 	(obj:-1.44060862422111)
+x#117#86#3                            100.73805631166 	(obj:-1.44060862422111)
+x#117#98#3                             89.23285631166 	(obj:-1.44060862422111)
+x#117#110#3                          82.1800000092198 	(obj:-1.44060862422111)
+x#118#3#1                            180.751216424693 	(obj:-2.12140043845867)
+x#118#3#2                            180.751216424693 	(obj:-2.12140043845867)
+x#118#15#2                           52.9259648042296 	(obj:-5.40614883372045)
+x#118#15#3                           70.5679530723061 	(obj:-1.4262025379789)
+x#118#27#3                           62.7527843516506 	(obj:-1.4262025379789)
+x#118#39#3                           55.8226337189674 	(obj:-1.4262025379789)
+x#118#51#3                           49.5010759477372 	(obj:-1.4262025379789)
+x#118#63#3                           45.1539840802156 	(obj:-1.4262025379789)
+x#118#75#3                           31.0506561965832 	(obj:-1.4262025379789)
+x#118#87#3                            100.73805631166 	(obj:-1.4262025379789)
+x#118#99#3                             89.23285631166 	(obj:-1.4262025379789)
+x#118#111#3                          82.1800000092198 	(obj:-1.4262025379789)
+x#119#4#1                            180.751216424693 	(obj:-2.35431465443163)
+x#119#4#2                            180.751216424693 	(obj:-2.35431465443163)
+x#119#16#2                           52.9259648042296 	(obj:-5.64023287812002)
+x#119#16#3                           70.5679530723061 	(obj:-1.41194051259911)
+x#119#28#3                           62.7527843516506 	(obj:-1.41194051259911)
+x#119#40#3                           55.8226337189674 	(obj:-1.41194051259911)
+x#119#52#3                           49.5010759477372 	(obj:-1.41194051259911)
+x#119#64#3                           45.1539840802156 	(obj:-1.41194051259911)
+x#119#76#3                           31.0506561965832 	(obj:-1.41194051259911)
+x#119#88#3                            100.73805631166 	(obj:-1.41194051259911)
+x#119#100#3                            89.23285631166 	(obj:-1.41194051259911)
+x#119#112#3                          82.1800000092198 	(obj:-1.41194051259911)
+x#120#5#1                            180.751216424693 	(obj:-2.58588985744544)
+x#120#5#2                            180.751216424693 	(obj:-2.58588985744544)
+x#120#17#3                           70.5679530723061 	(obj:-1.39782110747312)
+x#120#29#3                           62.7527843516506 	(obj:-1.39782110747312)
+x#120#41#3                           55.8226337189674 	(obj:-1.39782110747312)
+x#120#53#3                           49.5010759477372 	(obj:-1.39782110747312)
+x#120#65#3                           45.1539840802156 	(obj:-1.39782110747312)
+x#120#77#3                           31.0506561965832 	(obj:-1.39782110747312)
+x#120#89#3                            100.73805631166 	(obj:-1.39782110747312)
+x#120#101#3                            89.23285631166 	(obj:-1.39782110747312)
+x#120#113#3                          82.1800000092198 	(obj:-1.39782110747312)
+x#0#6#1                                           127 	(obj:0)
+x#0#6#2                                           124 	(obj:0)
+x#0#7#1                                           165 	(obj:0)
+x#0#7#2                                           135 	(obj:0)
+x#0#17#2                                           44 	(obj:0)
+x#0#18#2                                           61 	(obj:0)
+x#0#60#3                                          587 	(obj:0)
+y#1#7#1                                           127 	(obj:345)
+y#1#7#2                                           124 	(obj:345)
+y#1#8#1                                           165 	(obj:345)
+y#1#8#2                              84.6224549167142 	(obj:345)
+y#1#18#2                                           44 	(obj:643)
+y#13#6#1                                       205.45 	(obj:218)
+y#13#6#2                                       61.635 	(obj:218)
+y#13#31#2                                          61 	(obj:475)
+y#25#6#1                              223.08214077915 	(obj:188)
+y#25#6#2                              66.924642233745 	(obj:188)
+y#25#18#2                                61.635000001 	(obj:350)
+y#37#18#2                             66.924642233745 	(obj:349)
+y#38#31#3                        -9.21984621982119e-09 	(obj:157)
+y#38#98#3                                         587 	(obj:157)
+y#39#8#1                              251.84514077915 	(obj:224)
+y#39#8#2                              75.553542233745 	(obj:224)
+y#49#6#1                              77.626640491458 	(obj:133)
+y#49#6#2                             23.2879921474374 	(obj:133)
+y#49#18#2                             75.553542233745 	(obj:248)
+y#61#6#1                             112.884960200539 	(obj:118)
+y#61#6#2                             33.8654880601617 	(obj:118)
+y#61#18#2                            23.2879921474374 	(obj:220)
+y#73#6#1                             123.752689869343 	(obj:105)
+y#73#6#2                             37.1258069608029 	(obj:105)
+y#73#18#2                            33.8654880601617 	(obj:195)
+y#85#6#1                             139.556584297419 	(obj:93)
+y#85#6#2                             41.8669752892256 	(obj:93)
+y#85#18#2                            37.1258069608029 	(obj:173)
+y#97#6#1                             156.881960879127 	(obj:82)
+y#97#6#2                              47.064588263738 	(obj:82)
+y#97#18#2                            41.8669752892256 	(obj:153)
+y#109#6#1                            176.419882680765 	(obj:73)
+y#109#6#2                            52.9259648042296 	(obj:73)
+y#109#18#2                            47.064588263738 	(obj:136)
+y#119#16#2                           52.9259648042296 	(obj:103)
+w#4#11                               50.3775450832858 	(obj:0)
+w#18#11                                         82.18 	(obj:0)
+w#30#11                                89.23285631166 	(obj:0)
+w#42#11                               100.73805631166 	(obj:0)
+w#54#11                              31.0506561965832 	(obj:0)
+w#66#11                              45.1539840802156 	(obj:0)
+w#78#11                              49.5010759477372 	(obj:0)
+w#90#11                              55.8226337189674 	(obj:0)
+w#102#11                             62.7527843516506 	(obj:0)
+w#114#11                             70.5679530723061 	(obj:0)
+n#7#1                                          205.45 	(obj:0)
+n#7#2                                          205.45 	(obj:0)
+n#19#1                                223.08214077915 	(obj:0)
+n#19#2                                223.08214077915 	(obj:0)
+n#31#1                                251.84514077915 	(obj:0)
+n#31#2                                251.84514077915 	(obj:0)
+n#43#1                                77.626640491458 	(obj:0)
+n#43#2                                77.626640491458 	(obj:0)
+n#55#1                               112.884960200539 	(obj:0)
+n#55#2                               112.884960200539 	(obj:0)
+n#67#1                               123.752689869343 	(obj:0)
+n#67#2                               123.752689869343 	(obj:0)
+n#79#1                               139.556584297419 	(obj:0)
+n#79#2                               139.556584297419 	(obj:0)
+n#91#1                               156.881960879127 	(obj:0)
+n#91#2                               156.881960879127 	(obj:0)
+n#103#1                              176.419882680765 	(obj:0)
+n#103#2                              176.419882680765 	(obj:0)
+n#115#1                              180.751216424693 	(obj:0)
+n#115#2                              180.751216424693 	(obj:0)
+x#1#7#1                                           127 	(obj:-10.2748178018611)
+x#1#7#2                                           124 	(obj:-10.2748178018611)
+x#1#8#1                                           165 	(obj:-11.150896735415)
+x#1#8#2                                           135 	(obj:-11.150896735415)
+x#1#18#2                                           44 	(obj:-20.3834863654341)
+x#1#19#2                                           61 	(obj:-21.3707218504201)
+x#1#61#3                                          587 	(obj:-4.62235649546828)
+
+Statistics
+==========
+
+SCIP Status        : problem is solved [optimal solution found]
+Total Time         :    1777.30
+  solving          :    1774.98
+  presolving       :    1774.19 (included in solving)
+  reading          :       2.32
+  copying          :       0.05 (5 #copies) (minimal 0.01, maximal 0.01, average 0.01)
+Original Problem   :
+  Problem name     : model_strategy_2eng.zpl
+  Variables        : 104057 (360 binary, 0 integer, 0 implicit integer, 103697 continuous)
+  Constraints      : 157847 initial, 157847 maximal
+  Objective        : maximize, 46792 non-zeros (abs.min = 1.39782, abs.max = 3660)
+Presolved Problem  :
+  Problem name     : t_model_strategy_2eng.zpl
+  Variables        : 146 (15 binary, 0 integer, 0 implicit integer, 131 continuous)
+  Constraints      : 159 initial, 159 maximal
+  Objective        : minimize, 146 non-zeros (abs.min = 3.22863, abs.max = 3660)
+  Nonzeros         : 984 constraint, 0 clique table
+Presolvers         :   ExecTime  SetupTime  Calls  FixedVars   AggrVars   ChgTypes  ChgBounds   AddHoles    DelCons    AddCons   ChgSides   ChgCoefs
+  boundshift       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  convertinttobin  :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  domcol           :       0.00       0.00      6          0          0          0          0          0          0          0          0          0
+  dualagg          :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualcomp         :       0.00       0.00      6          0          0          0          0          0          0          0          0          0
+  dualinfer        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualsparsify     :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  gateextraction   :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  implics          :       0.00       0.00     11          0          0          0          0          0          0          0          0          0
+  inttobinary      :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  milp             :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  qpkktref         :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  redvub           :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  sparsify         :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  stuffing         :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  trivial          :       0.01       0.00     44        257          0          0          0          0          0          0          0          0
+  tworowbnd        :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  dualfix          :       0.02       0.00     44        230          0          0          0          0          0          0          0          0
+  genvbounds       :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  probing          :       0.09       0.00      3         19          0          0       1000          0          0          0          0          0
+  pseudoobj        :       0.00       0.00      3          0          0          0          0          0          0          0          0          0
+  symmetry         :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  vbounds          :       0.00       0.00      1          0          0          0          0          0          0          0          0          0
+  varbound         :       0.00       0.00     31          0          0          0          0          0          0          0          0          0
+  linear           :    1773.49       0.08     55      93750       9655          0     125874          0     157557          0        283        207
+  quadratic        :       0.01       0.00     35          0          0          0        111          0          0          0          0          0
+  benders          :       0.00       0.00      0          0          0          0          0          0          0          0          0          0
+  components       :       0.00       0.00      4          0          0          0          0          0          0          0          0          0
+  root node        :          -          -      -         70          -          -        326          -          -          -          -          -
+Constraints        :     Number  MaxNumber  #Separate #Propagate    #EnfoLP    #EnfoRelax  #EnfoPS    #Check   #ResProp    Cutoffs    DomReds       Cuts    Applied      Conss   Children
+  benderslp        :          0          0          0          0          1          0          0         35          0          0          0          0          0          0          0
+  integral         :          0          0          0          0          1          0          0         35          0          0          0          0          0          0          2
+  varbound         :          8          8         19       1023          0          0          0         19          0          0         13          0          0          0          0
+  linear           :        151        151         18       1133          0          0          0         22          0         17        393          0          0          0          0
+  benders          :          0          0          0          0          0          0          0          9          0          0          0          0          0          0          0
+  countsols        :          0          0          0          0          0          0          0          9          0          0          0          0          0          0          0
+  components       :          0          0          0          0          0          0          0          0          0          0          0          0          0          0          0
+Constraint Timings :  TotalTime  SetupTime   Separate  Propagate     EnfoLP     EnfoPS     EnfoRelax   Check    ResProp    SB-Prop
+  benderslp        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  integral         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  varbound         :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  linear           :       0.11       0.08       0.01       0.02       0.00       0.00       0.00       0.00       0.00       0.00
+  benders          :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  countsols        :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+  components       :       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00       0.00
+Propagators        : #Propagate   #ResProp    Cutoffs    DomReds
+  dualfix          :         12          0          0          0
+  genvbounds       :          0          0          0          0
+  nlobbt           :          0          0          0          0
+  obbt             :          0          0          0          0
+  probing          :          0          0          0          0
+  pseudoobj        :         55          0          0          3
+  redcost          :         28          0          0         69
+  rootredcost      :          1          0          0         50
+  symmetry         :          0          0          0          0
+  vbounds          :        254          0          0          0
+Propagator Timings :  TotalTime  SetupTime   Presolve  Propagate    ResProp    SB-Prop
+  dualfix          :       0.02       0.00       0.02       0.00       0.00       0.00
+  genvbounds       :       0.00       0.00       0.00       0.00       0.00       0.00
+  nlobbt           :       0.00       0.00       0.00       0.00       0.00       0.00
+  obbt             :       0.00       0.00       0.00       0.00       0.00       0.00
+  probing          :       0.09       0.00       0.09       0.00       0.00       0.00
+  pseudoobj        :       0.01       0.00       0.00       0.00       0.00       0.00
+  redcost          :       0.00       0.00       0.00       0.00       0.00       0.00
+  rootredcost      :       0.00       0.00       0.00       0.00       0.00       0.00
+  symmetry         :       0.00       0.00       0.00       0.00       0.00       0.00
+  vbounds          :       0.00       0.00       0.00       0.00       0.00       0.00
+Conflict Analysis  :       Time      Calls    Success    DomReds  Conflicts   Literals    Reconvs ReconvLits   Dualrays   Nonzeros   LP Iters   (pool size: [--,--])
+  propagation      :       0.00          0          0          -          0        0.0          0        0.0          -          -          -
+  infeasible LP    :       0.00          0          0          -          0        0.0          0        0.0          0        0.0          0
+  bound exceed. LP :       0.00          1          0          -          0        0.0          0        0.0          0        0.0          0
+  strong branching :       0.00          0          0          -          0        0.0          0        0.0          -          -          0
+  pseudo solution  :       0.00          0          0          -          0        0.0          0        0.0          -          -          -
+  applied globally :       0.00          -          -          0          0        0.0          -          -          0          -          -
+  applied locally  :          -          -          -          0          0        0.0          -          -          0          -          -
+Separators         :   ExecTime  SetupTime      Calls    Cutoffs    DomReds       Cuts    Applied      Conss
+  cut pool         :       0.00                     0          -          -          0          -          -    (maximal pool size: 0)
+  aggregation      :       0.07       0.00         19          0          0        132          0          0
+  cgmip            :       0.00       0.00          0          0          0          0          0          0
+  clique           :       0.00       0.00          4          0          0          0          0          0
+  closecuts        :       0.00       0.00          0          0          0          0          0          0
+  cmir             :       0.00       0.00          0          0          0          0          0          0
+  convexproj       :       0.00       0.00          0          0          0          0          0          0
+  disjunctive      :       0.00       0.00          0          0          0          0          0          0
+  eccuts           :       0.00       0.00          0          0          0          0          0          0
+  flowcover        :       0.00       0.00          0          0          0          0          2          0
+  gauge            :       0.00       0.00          0          0          0          0          0          0
+  gomory           :       0.01       0.00         18          0          0         63         26          0
+  impliedbounds    :       0.00       0.00         19          0          0         65         17          0
+  intobj           :       0.00       0.00          0          0          0          0          0          0
+  mcf              :       0.00       0.00          4          0          0          0          0          0
+  oddcycle         :       0.00       0.00          0          0          0          0          0          0
+  rapidlearning    :       0.00       0.00          0          0          0          0          0          0
+  strongcg         :       0.00       0.00         19          0          0          0          0          0
+  zerohalf         :       0.01       0.00         19          0          0          0          0          0
+Pricers            :   ExecTime  SetupTime      Calls       Vars
+  problem variables:       0.00          -          0          0
+Branching Rules    :   ExecTime  SetupTime   BranchLP  BranchExt   BranchPS    Cutoffs    DomReds       Cuts      Conss   Children
+  allfullstrong    :       0.00       0.00          0          0          0          0          0          0          0          0
+  cloud            :       0.00       0.00          0          0          0          0          0          0          0          0
+  distribution     :       0.00       0.00          0          0          0          0          0          0          0          0
+  fullstrong       :       0.00       0.00          0          0          0          0          0          0          0          0
+  inference        :       0.00       0.00          0          0          0          0          0          0          0          0
+  leastinf         :       0.00       0.00          0          0          0          0          0          0          0          0
+  lookahead        :       0.00       0.00          0          0          0          0          0          0          0          0
+  mostinf          :       0.00       0.00          0          0          0          0          0          0          0          0
+  multaggr         :       0.00       0.00          0          0          0          0          0          0          0          0
+  nodereopt        :       0.00       0.00          0          0          0          0          0          0          0          0
+  pscost           :       0.00       0.00          0          0          0          0          0          0          0          0
+  random           :       0.00       0.00          0          0          0          0          0          0          0          0
+  relpscost        :       0.00       0.00          1          0          0          0          0          0          0          2
+  vanillafullstrong:       0.00       0.00          0          0          0          0          0          0          0          0
+Primal Heuristics  :   ExecTime  SetupTime      Calls      Found       Best
+  LP solutions     :       0.00          -          -          0          0
+  relax solutions  :       0.00          -          -          0          0
+  pseudo solutions :       0.00          -          -          0          0
+  strong branching :       0.00          -          -          0          0
+  actconsdiving    :       0.00       0.00          0          0          0
+  adaptivediving   :       0.00       0.00          0          0          0
+  alns             :       0.03       0.00          1          0          0
+  bound            :       0.00       0.00          0          0          0
+  clique           :       0.00       0.00          0          0          0
+  coefdiving       :       0.00       0.00          0          0          0
+  completesol      :       0.00       0.00          0          0          0
+  conflictdiving   :       0.00       0.00          0          0          0
+  crossover        :       0.00       0.00          0          0          0
+  dins             :       0.00       0.00          0          0          0
+  distributiondivin:       0.00       0.00          0          0          0
+  dualval          :       0.00       0.00          0          0          0
+  farkasdiving     :       0.00       0.00          0          0          0
+  feaspump         :       0.01       0.00          1          1          1
+  fixandinfer      :       0.00       0.00          0          0          0
+  fracdiving       :       0.00       0.00          0          0          0
+  gins             :       0.00       0.00          0          0          0
+  guideddiving     :       0.00       0.00          0          0          0
+  indicator        :       0.00       0.00          0          0          0
+  intdiving        :       0.00       0.00          0          0          0
+  intshifting      :       0.01       0.00          1          0          0
+  linesearchdiving :       0.00       0.00          0          0          0
+  localbranching   :       0.00       0.00          0          0          0
+  locks            :       0.03       0.00          1          1          1
+  lpface           :       0.00       0.00          0          0          0
+  mpec             :       0.00       0.00          0          0          0
+  multistart       :       0.00       0.00          0          0          0
+  mutation         :       0.00       0.00          0          0          0
+  nlpdiving        :       0.00       0.00          0          0          0
+  objpscostdiving  :       0.00       0.00          0          0          0
+  octane           :       0.00       0.00          0          0          0
+  ofins            :       0.00       0.00          0          0          0
+  oneopt           :       0.00       0.00          3          0          0
+  padm             :       0.00       0.00          0          0          0
+  proximity        :       0.00       0.00          0          0          0
+  pscostdiving     :       0.00       0.00          0          0          0
+  randrounding     :       0.01       0.00         14          2          0
+  rens             :       0.11       0.00          4          0          0
+  reoptsols        :       0.00       0.00          0          0          0
+  repair           :       0.00       0.00          0          0          0
+  rins             :       0.00       0.00          0          0          0
+  rootsoldiving    :       0.00       0.00          0          0          0
+  rounding         :       0.00       0.00         14          0          0
+  shiftandpropagate:       0.00       0.00          0          0          0
+  shifting         :       0.01       0.00         14          0          0
+  simplerounding   :       0.00       0.00          0          0          0
+  subnlp           :       0.00       0.00          0          0          0
+  trivial          :       0.29       0.00          2          0          0
+  trivialnegation  :       0.00       0.00          0          0          0
+  trustregion      :       0.00       0.00          0          0          0
+  trysol           :       0.00       0.00          0          0          0
+  twoopt           :       0.00       0.00          0          0          0
+  undercover       :       0.00       0.00          0          0          0
+  vbounds          :       0.00       0.00          0          0          0
+  veclendiving     :       0.00       0.00          0          0          0
+  zeroobj          :       0.00       0.00          0          0          0
+  zirounding       :       0.00       0.00          4          0          0
+  other solutions  :          -          -          -          1          -
+Diving (single)    :      Calls      Nodes   LP Iters Backtracks  Conflicts   MinDepth   MaxDepth   AvgDepth  RoundSols  NLeafSols  MinSolDpt  MaxSolDpt  AvgSolDpt
+  actconsdiving    :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  coefdiving       :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  conflictdiving   :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  distributiondivin:          0          -          -          -          -          -          -          -          -          -          -          -          -
+  farkasdiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  fracdiving       :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  guideddiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  linesearchdiving :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  pscostdiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  veclendiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+Diving (adaptive)  :      Calls      Nodes   LP Iters Backtracks  Conflicts   MinDepth   MaxDepth   AvgDepth  RoundSols  NLeafSols  MinSolDpt  MaxSolDpt  AvgSolDpt
+  actconsdiving    :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  coefdiving       :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  conflictdiving   :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  distributiondivin:          0          -          -          -          -          -          -          -          -          -          -          -          -
+  farkasdiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  fracdiving       :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  guideddiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  linesearchdiving :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  pscostdiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+  veclendiving     :          0          -          -          -          -          -          -          -          -          -          -          -          -
+Neighborhoods      :      Calls  SetupTime  SolveTime SolveNodes       Sols       Best       Exp3  EpsGreedy        UCB TgtFixRate  Opt  Inf Node Stal  Sol  Usr Othr Actv
+  rens             :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  rins             :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  mutation         :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  localbranching   :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  crossover        :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  proximity        :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  zeroobjective    :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    1
+  dins             :          1       0.02       0.01          3          0          0    0.00000   -1.00000    1.00000      0.700    0    1    0    0    0    0    0    1
+  trustregion      :          0       0.00       0.00          0          0          0    0.00000   -1.00000    1.00000      0.900    0    0    0    0    0    0    0    0
+LP                 :       Time      Calls Iterations  Iter/call   Iter/sec  Time-0-It Calls-0-It    ItLimit
+  primal LP        :       0.00          2          0       0.00          -       0.00          2
+  dual LP          :       0.02         25       1210      86.43   70340.66       0.00         11
+  lex dual LP      :       0.00          0          0       0.00          -
+  barrier LP       :       0.00          0          0       0.00          -       0.00          0
+  resolve instable :       0.00          0          0       0.00          -
+  diving/probing LP:       0.02          3        569     189.67   27336.06
+  strong branching :       0.00          0          0       0.00          -          -          -          0
+    (at root node) :          -          0          0       0.00          -
+  conflict analysis:       0.00          0          0       0.00          -
+B&B Tree           :
+  number of runs   :          4
+  nodes            :          3 (1 internal, 2 leaves)
+  feasible leaves  :          0
+  infeas. leaves   :          1
+  objective leaves :          1
+  nodes (total)    :          6 (1 internal, 5 leaves)
+  nodes left       :          0
+  max depth        :          1
+  max depth (total):          1
+  backtracks       :          0 (0.0%)
+  early backtracks :          0 (0.0%)
+  nodes exc. ref.  :          0 (0.0%)
+  delayed cutoffs  :          0
+  repropagations   :          1 (0 domain reductions, 0 cutoffs)
+  avg switch length:       2.00
+  switching time   :       0.00
+Estim. Tree Size   :          3
+Estimation Tree    : 3 nodes (3 visited, 1 internal, 2 leaves, 0 open), weight: 1.0000 completed 1.0000
+Estimations        :      estim      value      trend resolution     smooth
+  wbe              :          3          -          -          -          -
+  tree-profile     :         -1          -          -          -          -
+  gap              :          3    1.00000    0.84996          1          3
+  tree-weight      :          3    1.00000    0.47375          1          3
+  leaf-frequency   :          3    0.50000    0.64275          1          3
+  ssg              :          3    0.00000   -0.53000          1          3
+  open-nodes       :          3    0.00000    0.76000          1          3
+Root Node          :
+  First LP value   : +2.53055671904386e+05
+  First LP Iters   :        426 (114577.73 Iter/sec)
+  First LP Time    :       0.00
+  Final Dual Bound : +2.24026623184636e+05
+  Final Root Iters :       1209
+  Root LP Estimate : +2.24026623184636e+05
+Solution           :
+  Solutions found  :          5 (5 improvements)
+  First Solution   : +2.06071592635913e+03   (in run 1, after 1 nodes, 1774.37 seconds, depth 85, found by <locks>)
+  Gap First Sol.   :  566344.79 %
+  Gap Last Sol.    :       0.03 %
+  Primal Bound     : +2.24015799997026e+05   (in run 2, after 0 nodes, 1774.68 seconds, depth -1, found by <feaspump>)
+  Dual Bound       : +2.24015799997026e+05
+  Gap              :       0.00 %
+Integrals          :      Total       Avg%
+  primal-dual      :  177449.08      99.97
+  primal-ref       :          -          - (not evaluated)
+  dual-ref         :          -          - (not evaluated)
